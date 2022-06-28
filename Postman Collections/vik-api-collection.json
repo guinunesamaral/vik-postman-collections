@@ -130,7 +130,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"nome\": \"G\",\r\n\t\"sobrenome\": \"N\",\r\n\t\"email\": \"fdfdfrrtrtrtrt@gmail.com\",\r\n\t\"senha\": \"MyPass@13\",\r\n\t\"cpfCnpj\": \"49885692843\",\r\n\t\"tipo\": \"F\",\r\n\t\"telefone\": \"11967305807\"\r\n}",
+							"raw": "{\r\n\t\"nome\": \"G\",\r\n\t\"sobrenome\": \"N\",\r\n\t\"email\": \"e45r@gmail.com\",\r\n\t\"senha\": \"MyPass@13\",\r\n\t\"cpfCnpj\": \"49885692843\",\r\n\t\"tipo\": \"F\",\r\n\t\"telefone\": \"11967305807\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -196,7 +196,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"id\": 2,\r\n\t\"nome\": \"G\",\r\n\t\"sobrenome\": \"N\",\r\n\t\"email\": \"qw@gmail.com\",\r\n\t\"senha\": \"MyPass@13\",\r\n\t\"cpfCnpj\": \"49666651000104\",\r\n\t\"tipo\": \"J\",\r\n\t\"telefones\": [\r\n\t\t{\r\n\t\t\t\"tipo\": \"1\",\r\n\t\t\t\"numero\": \"11967305809\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"tipo\": \"2\",\r\n\t\t\t\"numero\": \"11967305803\",\r\n\t\t\t\"ramal\": \"r\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"tipo\": \"3\",\r\n\t\t\t\"numero\": \"11967305807\",\r\n\t\t\t\"ramal\": \"ram\"\r\n\t\t}\r\n\t],\r\n\t\"redesSociais\": {\r\n\t\t\"facebook\": \"http\",\r\n\t\t\"instagram\": \"http\",\r\n\t\t\"telegram\": \"http\",\r\n\t\t\"twitter\": \"http\",\r\n\t\t\"linkedIn\": \"http\",\r\n\t\t\"whatsApp\": \"http\",\r\n\t\t\"outro\": \"http\"\r\n\t},\r\n\t\"endereco\": {\r\n\t\t\"bairro\": \"b\",\r\n\t\t\"numero\": \"1\",\r\n\t\t\"tipoLogradouro\": \"t\",\r\n\t\t\"logradouro\": \"l\",\r\n\t\t\"complemento\": \"casa 3\",\r\n\t\t\"referencia\": \"Perto da Avenida X\",\r\n\t\t\"cidade\": \"São Paulo\",\r\n\t\t\"estado\": \"sp\",\r\n\t\t\"pais\": \"Brasil\",\r\n\t\t\"tipoEndereco\": \"Comercial\"\r\n\t}\r\n}",
+							"raw": "{\r\n\t\"id\": 2,\r\n\t\"nome\": \"G\",\r\n\t\"sobrenome\": \"N\",\r\n\t\"email\": \"qw@gmail.com\",\r\n\t\"senha\": \"MyPass@13\",\r\n\t\"cpfCnpj\": \"49666651000104\",\r\n\t\"tipo\": \"J\",\r\n\t\"telefones\": [\r\n\t\t{\r\n\t\t\t\"tipo\": \"1\",\r\n\t\t\t\"numero\": \"11967305809\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"tipo\": \"2\",\r\n\t\t\t\"numero\": \"11967305803\",\r\n\t\t\t\"ramal\": \"r\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"tipo\": \"3\",\r\n\t\t\t\"numero\": \"11967305807\",\r\n\t\t\t\"ramal\": \"ram\"\r\n\t\t}\r\n\t],\r\n\t\"redesSociais\": {\r\n\t\t\"facebook\": \"http\",\r\n\t\t\"instagram\": \"http\",\r\n\t\t\"telegram\": \"http\",\r\n\t\t\"twitter\": \"http\",\r\n\t\t\"linkedIn\": \"http\",\r\n\t\t\"whatsApp\": \"http\",\r\n\t\t\"outro\": \"http\"\r\n\t},\r\n\t\"endereco\": {\r\n\t\t\"bairro\": \"b\",\r\n\t\t\"numero\": \"1\",\r\n    \"cep\": \"3804100\",\r\n\t\t\"tipoLogradouro\": \"t\",\r\n\t\t\"logradouro\": \"l\",\r\n\t\t\"complemento\": \"casa 3\",\r\n\t\t\"referencia\": \"Perto da Avenida X\",\r\n\t\t\"cidade\": \"São Paulo\",\r\n\t\t\"estado\": \"sp\",\r\n\t\t\"pais\": \"Brasil\",\r\n\t\t\"tipoEndereco\": \"Comercial\"\r\n\t}\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
