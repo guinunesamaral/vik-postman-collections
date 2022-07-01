@@ -453,19 +453,6 @@
 					"response": []
 				},
 				{
-					"name": "Get Active Cargos",
-					"id": "f2e6b59e-c7c1-46de-99ce-af77a24c84ae",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{base_url}}/api/Cargo"
-					},
-					"response": []
-				},
-				{
 					"name": "Get Active Cargos Copy",
 					"id": "b5e472f0-3004-47f8-a005-bb8095a8c406",
 					"protocolProfileBehavior": {
