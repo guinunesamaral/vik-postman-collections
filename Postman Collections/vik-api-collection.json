@@ -316,14 +316,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 34,\r\n  \"nome\": \"Guilherme\",\r\n  \"sobrenome\": \"VIK\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"sdhhsdhsd@tech.com\",\r\n  \"senha\": \"Senha@321\",\r\n  \"ativo\": true,\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idGestor\": 0,\r\n  \"idCargo\": 1,\r\n  \"idDepartamento\": 1,\r\n  \"idFoto\": \"acbec4e9-cc44-447d-945c-6fcbeac3fb5a\",\r\n  \"dataCadastro\": \"2022-06-28T12:00:31.693\",\r\n  \"dataUltimaAlteracao\": null,\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"84997979\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"string\"\r\n  },\r\n  \"tipoArquivo\": 2,\r\n  \"base64File\": {\r\n    \"mime\": \"image/jpeg\",\r\n    \"data\": {{base64ImageDataUpdate}}\r\n  }\r\n}",
+							"raw": "{\r\n    \"id\": 7,\r\n  \"nome\": \"Guilherme\",\r\n  \"sobrenome\": \"VIK\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"sdhhsdhsd@tech.com\",\r\n  \"senha\": \"Senha@321\",\r\n  \"ativo\": true,\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idGestor\": 0,\r\n  \"idCargo\": 1,\r\n  \"idDepartamento\": 1,\r\n  \"idFoto\": \"acbec4e9-cc44-447d-945c-6fcbeac3fb5a\",\r\n  \"dataCadastro\": \"2022-06-28T12:00:31.693\",\r\n  \"dataUltimaAlteracao\": null,\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"84997979\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"string\"\r\n  },\r\n  \"tipoArquivo\": 2,\r\n  \"base64File\": {\r\n    \"mime\": \"image/jpeg\",\r\n    \"data\": {{base64ImageDataUpdate}}\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{//localhost:5000}}/api/Utilizador"
+						"url": "http://localhost:5001/api/Utilizador"
 					},
 					"response": []
 				},
