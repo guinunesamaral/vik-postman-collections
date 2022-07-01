@@ -425,34 +425,6 @@
 			"name": "Plano",
 			"item": [
 				{
-					"name": "Post Plano",
-					"id": "a1c5195c-8d64-414d-8a27-93faa0d0a5ef",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "{{base_url}}/api/Cargo?listInactiveCargos=true",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"api",
-								"Cargo"
-							],
-							"query": [
-								{
-									"key": "listInactiveCargos",
-									"value": "true"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "Get Active Cargos Copy",
 					"id": "b5e472f0-3004-47f8-a005-bb8095a8c406",
 					"protocolProfileBehavior": {
