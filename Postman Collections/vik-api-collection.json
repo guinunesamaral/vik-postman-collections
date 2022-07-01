@@ -425,7 +425,7 @@
 			"name": "Plano",
 			"item": [
 				{
-					"name": "Get All Cargos",
+					"name": "Post Plano",
 					"id": "a1c5195c-8d64-414d-8a27-93faa0d0a5ef",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
