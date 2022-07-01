@@ -338,7 +338,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"idUsuario\": 2,\r\n  \"idUtilizador\": 1\r\n}",
+							"raw": "{\r\n\t\"idResponsavel\": 2,\r\n  \"tipoResponsavel\": 1,\r\n  \"idUtilizador\": 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
