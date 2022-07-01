@@ -294,14 +294,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nome\": \"Guilherme\",\r\n  \"sobrenome\": \"VIK\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"sdhhsdhsd@tech.com\",\r\n  \"senha\": \"Senha@321\",\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idDepartamento\": 1,\r\n  \"idSolucao\": 1,\r\n  \"idCargo\": 1,\r\n  \"idPerfil\": 1,\r\n  \"idFoto\": \"616b5853-a4d3-40aa-beb9-d55f3c9728d8.jpeg\",\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"84997979\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"string\"\r\n  },\r\n  \"tipoArquivo\": 2,\r\n  \"base64File\": {\r\n    \"mime\": \"image/jpeg\",\r\n    \"data\": {{base64ImageDataCreate}}\r\n  }\r\n}",
+							"raw": "{\r\n  \"nome\": \"vik\",\r\n  \"sobrenome\": \"tech\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"teste300@tech.com\",\r\n  \"senha\": \"Senha@321\",\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idDepartamento\": 1,\r\n  \"idCargo\": 1,\r\n  \"idFoto\": \"616b5853-a4d3-40aa-beb9-d55f3c9728d8.jpeg\",\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"84997979\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"string\"\r\n  },\r\n  \"tipoArquivo\": 2,\r\n  \"base64File\": {\r\n    \"mime\": \"image/jpeg\",\r\n    \"data\": {{base64ImageDataCreate}}\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Utilizador"
+						"url": "http://localhost:5001/api/Utilizador"
 					},
 					"response": []
 				},
