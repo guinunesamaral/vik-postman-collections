@@ -115,7 +115,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/User/10006"
+						"url": "{{base_url}}/api/User/10007"
 					},
 					"response": []
 				},
