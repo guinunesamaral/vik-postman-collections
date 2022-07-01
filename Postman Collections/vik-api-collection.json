@@ -279,7 +279,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Utilizador/39"
+						"url": "http://localhost:5001/api/Utilizador/5"
 					},
 					"response": []
 				},
