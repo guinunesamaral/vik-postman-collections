@@ -435,14 +435,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"nome\": \"ceo\",\r\n\t\"descricao\": \"nakton\"\r\n}",
+							"raw": "{\r\n  \"id\": 100,\r\n  \"nome\": \"basico\",\r\n  \"preco\": \"3.000\",\r\n  \"idSolucao\": 3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Cargo"
+						"url": "https://localhost:5000/api/Plano/"
 					},
 					"response": []
 				}
