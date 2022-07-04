@@ -602,7 +602,20 @@
 		},
 		{
 			"name": "SolicitacaoInativacao",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "cd337f3f-0f13-4146-9ca5-77a72996649d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "2599544e-3df8-4b11-9258-fe244191125c"
 		}
 	]
