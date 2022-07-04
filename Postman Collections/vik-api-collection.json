@@ -614,14 +614,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idUsuario\": 1,\r\n  \"nomeMotivo\": \"\",\r\n  \"detalhamento\": \"\",\r\n  \"outros\": \"\"\r\n}",
+							"raw": "{\r\n  \"idUsuario\": 1,\r\n  \"motivo\": {\r\n    \"nome\": \"\",\r\n    \"detalhamento\": \"\"\r\n  },\r\n  \"outrosMotivos\": \"\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}/api/SolicitacaoInativacao"
+						"url": "{{base_url}}/api/"
 					},
 					"response": []
 				}
