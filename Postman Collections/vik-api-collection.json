@@ -604,7 +604,7 @@
 			"name": "SolicitacaoInativacao",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Post SolicitacaoInativacao",
 					"id": "cd337f3f-0f13-4146-9ca5-77a72996649d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
