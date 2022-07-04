@@ -461,7 +461,22 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Departamento"
+						"url": {
+							"raw": "{{base_url}}/api/Departamento?apenasAtivos=false",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"Departamento"
+							],
+							"query": [
+								{
+									"key": "apenasAtivos",
+									"value": "false"
+								}
+							]
+						}
 					},
 					"response": []
 				},
