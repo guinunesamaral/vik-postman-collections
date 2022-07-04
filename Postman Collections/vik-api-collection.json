@@ -621,7 +621,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/"
+						"url": "{{base_url}}/api/SolicitacaoInativacao"
 					},
 					"response": []
 				}
