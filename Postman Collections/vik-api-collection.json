@@ -610,8 +610,18 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idUsuario\": 1,\r\n  \"nomeMotivo\": \"\",\r\n  \"detalhamento\": \"\",\r\n  \"outros\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/api/SolicitacaoInativacao"
 					},
 					"response": []
 				}
