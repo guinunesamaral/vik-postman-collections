@@ -94,7 +94,7 @@
 					"response": []
 				},
 				{
-					"name": "Get By Id PJ",
+					"name": "Get By Id",
 					"id": "539208eb-cd07-4c1f-b305-154c9a60cbb5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
