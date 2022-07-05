@@ -94,19 +94,6 @@
 					"response": []
 				},
 				{
-					"name": "Get By Id PF",
-					"id": "01dc4b4b-f120-4bcb-bdc0-1779422ca24f",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{base_url}}/api/User/3"
-					},
-					"response": []
-				},
-				{
 					"name": "Get By Id PJ",
 					"id": "539208eb-cd07-4c1f-b305-154c9a60cbb5",
 					"protocolProfileBehavior": {
