@@ -129,7 +129,7 @@
 					"response": []
 				},
 				{
-					"name": "Update User PJ",
+					"name": "Update User",
 					"id": "6f7804b4-e985-4575-ba45-668e012612b3",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
