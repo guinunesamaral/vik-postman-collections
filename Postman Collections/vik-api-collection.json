@@ -107,7 +107,7 @@
 					"response": []
 				},
 				{
-					"name": "Create User PJ",
+					"name": "Create User",
 					"id": "8c435631-d096-4873-b209-ef8e6f90ad8a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
