@@ -151,7 +151,7 @@
 					"response": []
 				},
 				{
-					"name": "Disable User PJ",
+					"name": "Disable User",
 					"id": "03c4009e-d1bc-4684-92f3-0cd95b9365ae",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
