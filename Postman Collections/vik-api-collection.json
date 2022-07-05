@@ -151,28 +151,6 @@
 					"response": []
 				},
 				{
-					"name": "Disable User PF",
-					"id": "605c3bf7-0677-452b-a4eb-156230761af3",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "PUT",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n\t\"idUsuario\": 1,\r\n\t\"idMotivoInativacao\": 1,\r\n\t\"outros\": \"o\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{base_url}}/api/User/disable"
-					},
-					"response": []
-				},
-				{
 					"name": "Disable User PJ",
 					"id": "03c4009e-d1bc-4684-92f3-0cd95b9365ae",
 					"protocolProfileBehavior": {
