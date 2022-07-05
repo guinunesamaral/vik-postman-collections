@@ -614,7 +614,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idUsuario\": 1,\r\n  \"motivo\": {\r\n    \"nome\": \"Custo\",\r\n    \"detalhamento\": \"Não posso pagar\"\r\n  },\r\n  \"outrosMotivos\": \"\"\r\n}",
+							"raw": "{\r\n  \"idUsuario\": 1,\r\n  \"motivo\": {\r\n    \"nome\": \"Custo\",\r\n    \"detalhamento\": \"Não posso pagar\"\r\n  },\r\n  \"outrosMotivos\": \"outro\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
