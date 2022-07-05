@@ -366,6 +366,19 @@
 						"url": "https://localhost:5000/api/Plano/"
 					},
 					"response": []
+				},
+				{
+					"name": "GetAll Plano",
+					"id": "370c90c6-253b-4a72-b0a6-e4600a56e241",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{base_url}}/api/Solucao"
+					},
+					"response": []
 				}
 			],
 			"id": "722ad5cf-0247-42ef-8035-304a38fdf482"
