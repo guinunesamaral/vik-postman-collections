@@ -469,7 +469,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n   \"idUsuario\": 2,\r\n   \"idDepartamento\": 2\r\n}",
+							"raw": "{\r\n   \"idUsuario\": 2,\r\n   \"idDepartamento\": 3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
