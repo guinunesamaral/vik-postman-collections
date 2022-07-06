@@ -259,7 +259,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"idResponsavel\": 15,\r\n  \"tipoResponsavel\": 1,\r\n  \"idUtilizador\": 19\r\n}",
+							"raw": "{\r\n\t\"idResponsavel\": 15,\r\n  \"tipoResponsavel\": 2,\r\n  \"idUtilizador\": 19\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
