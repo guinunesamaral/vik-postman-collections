@@ -161,7 +161,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"idUsuario\": 10007\r\n}",
+							"raw": "{\r\n\t\"idUsuario\": 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
