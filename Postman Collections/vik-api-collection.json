@@ -575,7 +575,7 @@
 			"name": "Indicadores",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Gerar",
 					"id": "3f84ce8d-f3b2-4e1e-896a-4cf0ef41ca06",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
