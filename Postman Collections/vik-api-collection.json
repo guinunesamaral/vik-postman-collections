@@ -582,7 +582,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{base_url}}/api/Indicadores"
 					},
 					"response": []
 				}
