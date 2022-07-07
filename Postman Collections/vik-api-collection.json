@@ -573,7 +573,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idSolucao\": 1,\r\n  \"idUsuario\": 19,\r\n  \"idPlanoSolucao\": 106\r\n}",
+							"raw": "{\r\n  \"idSolucao\": 3,\r\n  \"idUsuario\": 21,\r\n  \"idPlanoSolucao\": 105\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
