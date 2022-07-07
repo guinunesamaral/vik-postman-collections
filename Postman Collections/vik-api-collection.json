@@ -171,6 +171,28 @@
 						"url": "{{base_url}}/api/User/disable"
 					},
 					"response": []
+				},
+				{
+					"name": "Post SolicitacaoInativacao",
+					"id": "cd337f3f-0f13-4146-9ca5-77a72996649d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idUsuario\": 1,\r\n  \"idMotivo\": 1,\r\n  \"detalhamento\": \"Não posso pagar\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/api/SolicitacaoInativacao"
+					},
+					"response": []
 				}
 			],
 			"id": "c7c2e45a-a22c-4e50-ace6-f2bd655e0fbc"
@@ -583,34 +605,6 @@
 				}
 			],
 			"id": "97aa8d13-4f21-4aa2-9769-760d9795134d"
-		},
-		{
-			"name": "SolicitacaoInativacao",
-			"item": [
-				{
-					"name": "Post SolicitacaoInativacao",
-					"id": "cd337f3f-0f13-4146-9ca5-77a72996649d",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n  \"idUsuario\": 1,\r\n  \"idMotivo\": 1,\r\n  \"detalhamento\": \"Não posso pagar\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{base_url}}/api/SolicitacaoInativacao"
-					},
-					"response": []
-				}
-			],
-			"id": "2599544e-3df8-4b11-9258-fe244191125c"
 		},
 		{
 			"name": "Indicadores",
