@@ -551,14 +551,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idSolucao\": 0,\r\n  \"idUsuario\": 0,\r\n  \"idPlanoSolucao\": 0\r\n}",
+							"raw": "{\r\n  \"idSolucao\": 1,\r\n  \"idUsuario\": 19,\r\n  \"idPlanoSolucao\": 106\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "http://localhost:5001/api/UsuarioSolucao"
+						"url": "https://localhost:5000/api/Solucao/associate"
 					},
 					"response": []
 				}
