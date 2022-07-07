@@ -525,6 +525,25 @@
 			"id": "9651e654-dd5d-4da2-9fe2-86be0f270a11"
 		},
 		{
+			"name": "Solucao Copy",
+			"item": [
+				{
+					"name": "Solucoes",
+					"id": "7a806231-55b9-4903-9703-37d2bcb54164",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{base_url}}/api/Solucao"
+					},
+					"response": []
+				}
+			],
+			"id": "622024aa-ffd6-4b41-b9fc-7a817f9b9df6"
+		},
+		{
 			"name": "Motivo Inativacao",
 			"item": [
 				{
