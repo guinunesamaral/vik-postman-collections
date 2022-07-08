@@ -124,7 +124,7 @@
 								}
 							}
 						},
-						"url": "http://localhost:52134/api/User"
+						"url": "{{base_url}}/api/User"
 					},
 					"response": []
 				},
