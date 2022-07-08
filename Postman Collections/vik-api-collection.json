@@ -299,7 +299,7 @@
 			"name": "UtilizadorSolucao",
 			"item": [
 				{
-					"name": "Utilizadores",
+					"name": "UtilizadorSolucao",
 					"id": "27a5d3b2-19ef-44ce-89ea-4a26954932ad",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
