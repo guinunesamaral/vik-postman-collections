@@ -605,25 +605,6 @@
 				}
 			],
 			"id": "97aa8d13-4f21-4aa2-9769-760d9795134d"
-		},
-		{
-			"name": "Indicadores",
-			"item": [
-				{
-					"name": "Gerar",
-					"id": "3f84ce8d-f3b2-4e1e-896a-4cf0ef41ca06",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{base_url}}/api/Indicadores"
-					},
-					"response": []
-				}
-			],
-			"id": "50dc467e-066d-4f08-b40b-ca696f28ffa5"
 		}
 	]
 }
