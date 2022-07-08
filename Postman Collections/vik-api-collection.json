@@ -291,6 +291,18 @@
 						"url": "{{base_url}}/api/Utilizador/disable"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "462bdbba-ee4a-41f5-a2a5-bc939d4aac58",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "a5c716ab-087f-4ea5-96b4-7eedb8b38c6b"
