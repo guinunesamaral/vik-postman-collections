@@ -209,7 +209,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "http://localhost:5001/api/Utilizador/5"
+						"url": "{{base_url}}/api/Utilizador/5"
 					},
 					"response": []
 				},
