@@ -209,7 +209,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Utilizador/5"
+						"url": "{{base_url}}/api/Utilizador/"
 					},
 					"response": []
 				},
