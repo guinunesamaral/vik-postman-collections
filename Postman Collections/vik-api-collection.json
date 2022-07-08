@@ -300,7 +300,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{base_url}}/api/Utilizador/associacoes/15"
 					},
 					"response": []
 				}
