@@ -293,7 +293,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "UtilizadorSolucao",
 					"id": "462bdbba-ee4a-41f5-a2a5-bc939d4aac58",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
