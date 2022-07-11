@@ -183,7 +183,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idUsuario\": 6,\r\n  \"idMotivo\": 1,\r\n  \"detalhamento\": \"Não posso pagar\"\r\n}",
+							"raw": "{\r\n  \"idUsuario\": 7,\r\n  \"idMotivo\": 1,\r\n  \"detalhamento\": \"Não posso pagar\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
