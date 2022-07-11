@@ -288,7 +288,7 @@
 								}
 							}
 						},
-						"url": "{{azure_url}}/api/Utilizador/disable"
+						"url": "{{base_url}}/api/Utilizador/disable"
 					},
 					"response": []
 				},
