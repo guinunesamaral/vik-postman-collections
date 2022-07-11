@@ -266,7 +266,7 @@
 								}
 							}
 						},
-						"url": "http://localhost:5001/api/Utilizador"
+						"url": "{{base_url}}/api/Utilizador"
 					},
 					"response": []
 				},
