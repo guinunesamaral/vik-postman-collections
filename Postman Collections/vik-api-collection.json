@@ -455,7 +455,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Perfil"
+						"url": "{{base_url}}/api/Perfil/disable"
 					},
 					"response": []
 				},
