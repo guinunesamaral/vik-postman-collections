@@ -710,7 +710,11 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Solucao"
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "{{base_url}}/api/Utilizador/associacoes/{id}"
 					},
 					"response": []
 				},
