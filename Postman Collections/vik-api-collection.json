@@ -669,7 +669,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Solucao"
+						"url": "{{base_url}}/api/user/{id}/Solucao"
 					},
 					"response": []
 				},
