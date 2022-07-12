@@ -281,14 +281,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"idResponsavel\": 2,\r\n  \"tipoResponsavel\": 1,\r\n  \"idUtilizador\": 25\r\n}",
+							"raw": "{\r\n\t\"idResponsavel\": 2,\r\n  \"tipoResponsavel\": 1,\r\n  \"idUtilizador\": 27\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{azure_url}}/api/Utilizador/disable"
+						"url": "{{base_url}}/api/Utilizador/disable"
 					},
 					"response": []
 				},
