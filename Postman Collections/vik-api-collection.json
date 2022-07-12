@@ -423,18 +423,6 @@
 						"url": "{{base_url}}/api/Plano/"
 					},
 					"response": []
-				},
-				{
-					"name": "New Request",
-					"id": "6bc5569d-9568-470b-acc6-114d7869015d",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
 				}
 			],
 			"id": "722ad5cf-0247-42ef-8035-304a38fdf482"
