@@ -378,6 +378,75 @@
 			"id": "bf4c4bf8-127f-4b79-9a35-f8a0a000a609"
 		},
 		{
+			"name": "Perfil",
+			"item": [
+				{
+					"name": "Get All Cargos",
+					"id": "7f62af67-1f2b-4e2d-9809-3b5d58c1c7a6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/api/Cargo?listInactiveCargos=true",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"Cargo"
+							],
+							"query": [
+								{
+									"key": "listInactiveCargos",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Active Cargos",
+					"id": "4d42ec19-f05c-4306-8582-9a72097dd899",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{base_url}}/api/Cargo"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Active Cargos Copy",
+					"id": "5513b8b8-5023-419b-afa3-0ad6c9b3aa35",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"nome\": \"ceo\",\r\n\t\"descricao\": \"nakton\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/api/Cargo"
+					},
+					"response": []
+				}
+			],
+			"id": "11dcb074-cba2-4c18-b7ec-45ae5dd59c04"
+		},
+		{
 			"name": "Plano",
 			"item": [
 				{
