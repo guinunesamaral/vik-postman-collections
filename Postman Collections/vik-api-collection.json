@@ -419,14 +419,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"nome\": \"ceo\",\r\n\t\"descricao\": \"nakton\"\r\n}",
+							"raw": "{\r\n  \"nome\": \"string\",\r\n  \"descricao\": \"string\",\r\n  \"idSolucao\": 0\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Cargo"
+						"url": "{{base_url}}/api/Perfil"
 					},
 					"response": []
 				}
