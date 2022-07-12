@@ -467,7 +467,8 @@
 					},
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": "{{base_url}}/api/Perfil/"
 					},
 					"response": []
 				}
