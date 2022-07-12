@@ -719,7 +719,7 @@
 					"response": []
 				},
 				{
-					"name": "Associacao UsuarioaSolucao",
+					"name": "Associacao UtilizadorSolucao",
 					"id": "4928719e-18d9-4f45-9944-cde68f154410",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
