@@ -389,22 +389,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{base_url}}/api/Cargo?listInactiveCargos=true",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"api",
-								"Cargo"
-							],
-							"query": [
-								{
-									"key": "listInactiveCargos",
-									"value": "true"
-								}
-							]
-						}
+						"url": "{{base_url}}/api/Perfil"
 					},
 					"response": []
 				},
