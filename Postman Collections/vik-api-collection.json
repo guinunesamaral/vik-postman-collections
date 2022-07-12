@@ -117,7 +117,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"nome\": \"G\",\r\n\t\"sobrenome\": \"N\",\r\n\t\"email\": \"y76@gmail.com\",\r\n\t\"senha\": \"MyPass@13\",\r\n\t\"tipo\": \"J\",\r\n\t\"telefone\": \"11967305807\"\r\n}",
+							"raw": "{\r\n\t\"nome\": \"G\",\r\n\t\"sobrenome\": \"N\",\r\n\t\"email\": \"e23@gmail.com\",\r\n\t\"senha\": \"MyPass@13\",\r\n\t\"tipo\": \"J\",\r\n\t\"telefone\": \"11967305807\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
