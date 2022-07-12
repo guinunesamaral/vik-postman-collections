@@ -385,7 +385,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 45,\r\n  \"nome\": \"Monitor de Qualidade\",\r\n  \"descricao\": \"teste cargo\"\r\n}",
+							"raw": "{\r\n  \"id\": 45,\r\n  \"nome\": \"Monitor de Qualidade\",\r\n  \"descricao\": \"teste cargo3\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
