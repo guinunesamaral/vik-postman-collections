@@ -375,7 +375,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "PUT Cargo.",
 					"id": "bd71ac2b-309e-45e8-b99b-8fccefd47507",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
