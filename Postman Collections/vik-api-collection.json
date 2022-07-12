@@ -714,7 +714,7 @@
 							"mode": "raw",
 							"raw": ""
 						},
-						"url": "{{base_url}}/api/Utilizador/associacoes/{id}"
+						"url": "{{base_url}}/api/Utilizador/associacoes/{idUtilizador}"
 					},
 					"response": []
 				},
