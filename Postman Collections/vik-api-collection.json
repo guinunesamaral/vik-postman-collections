@@ -729,14 +729,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idSolucao\": 3,\r\n  \"idUsuario\": 21,\r\n  \"idPlanoSolucao\": 105\r\n}",
+							"raw": "{\r\n  \"idSolucao\": 3,\r\n  \"idPerfil\": 105\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "https://localhost:5000/api/Solucao/associate"
+						"url": "{{base_url}}//api/Utilizador/{id}/solucao"
 					},
 					"response": []
 				}
