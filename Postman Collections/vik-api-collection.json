@@ -373,6 +373,18 @@
 						"url": "{{base_url}}/api/Cargo"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "bd71ac2b-309e-45e8-b99b-8fccefd47507",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "bf4c4bf8-127f-4b79-9a35-f8a0a000a609"
