@@ -426,7 +426,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 0,\r\n  \"nome\": \"string\",\r\n  \"descricao\": \"string\",\r\n  \"idSolucao\": 0\r\n}",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nome\": \"AdmVIKteste\",\r\n  \"descricao\": \"teste teste\",\r\n  \"idSolucao\": 1\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
