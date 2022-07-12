@@ -736,7 +736,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}//api/Utilizador/{id}/solucao"
+						"url": "{{base_url}}/api/Utilizador/{id}/solucao"
 					},
 					"response": []
 				}
