@@ -403,8 +403,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": "{{base_url}}//api/Cargo/disable"
 					},
 					"response": []
 				}
