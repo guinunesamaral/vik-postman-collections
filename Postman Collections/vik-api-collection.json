@@ -391,7 +391,8 @@
 									"language": "json"
 								}
 							}
-						}
+						},
+						"url": "{{base_url}}//api/Cargo"
 					},
 					"response": []
 				}
