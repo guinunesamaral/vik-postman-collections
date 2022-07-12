@@ -431,7 +431,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Put Perfil",
 					"id": "d6d9e48b-af88-4dfe-908a-8cb6b3ef3a43",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
