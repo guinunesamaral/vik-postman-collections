@@ -183,14 +183,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idUsuario\": 23,\r\n  \"idMotivo\": 1,\r\n  \"detalhamento\": \"Não posso pagar\"\r\n}",
+							"raw": "{\r\n  \"idUsuario\": 47,\r\n  \"idMotivo\": 1,\r\n  \"detalhamento\": \"Não posso pagar\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}/api/User/solicitacao-inativacao"
+						"url": "{{azure_url}}/api/User/solicitacao-inativacao"
 					},
 					"response": []
 				}
