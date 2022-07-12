@@ -385,14 +385,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 0,\r\n  \"nome\": \"string\",\r\n  \"descricao\": \"string\"\r\n}",
+							"raw": "{\r\n  \"id\": 45,\r\n  \"nome\": \"Monitor de Qualidade\",\r\n  \"descricao\": \"teste cargo\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}//api/Cargo"
+						"url": "{{base_url}}/api/Cargo"
 					},
 					"response": []
 				},
