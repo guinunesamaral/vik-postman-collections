@@ -428,7 +428,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Disable Perfil",
 					"id": "0326cb4c-5091-4384-84f8-135fe1d58f4d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
