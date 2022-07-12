@@ -458,7 +458,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Get By Id Perfil",
 					"id": "6725fa05-9ac6-4b66-be15-30a6caa25b76",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
