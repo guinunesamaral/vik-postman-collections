@@ -674,7 +674,7 @@
 					"response": []
 				},
 				{
-					"name": "Associacao UsuarioaSolucao",
+					"name": "Associacao UtilizadorSolucao",
 					"id": "85838096-8f83-4acc-8acf-c8a133c4514d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
