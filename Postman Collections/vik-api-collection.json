@@ -699,6 +699,47 @@
 			"id": "622024aa-ffd6-4b41-b9fc-7a817f9b9df6"
 		},
 		{
+			"name": "UtilizadorSolucao",
+			"item": [
+				{
+					"name": "Solucoes",
+					"id": "e2ee1bb8-9680-4034-95a7-4f5ab32ccce9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{base_url}}/api/Solucao"
+					},
+					"response": []
+				},
+				{
+					"name": "Associacao UsuarioaSolucao",
+					"id": "4928719e-18d9-4f45-9944-cde68f154410",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"idSolucao\": 3,\r\n  \"idUsuario\": 21,\r\n  \"idPlanoSolucao\": 105\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://localhost:5000/api/Solucao/associate"
+					},
+					"response": []
+				}
+			],
+			"id": "5acaa6fb-f637-472e-9784-d17e9457c1d0"
+		},
+		{
 			"name": "Motivo Inativacao",
 			"item": [
 				{
