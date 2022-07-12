@@ -691,7 +691,7 @@
 								}
 							}
 						},
-						"url": "https://localhost:5000/api/Solucao/associate"
+						"url": "{{base_url}}//api/user/associacoes/{IdUsuario}"
 					},
 					"response": []
 				}
