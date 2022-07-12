@@ -783,6 +783,18 @@
 						"url": "{{base_url}}/api/Utilizador/{id}/solucao"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "a9e3c278-a16a-4d03-b83c-aa8745ac80d7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "5acaa6fb-f637-472e-9784-d17e9457c1d0"
