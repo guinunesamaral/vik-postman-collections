@@ -702,7 +702,7 @@
 			"name": "UtilizadorSolucao",
 			"item": [
 				{
-					"name": "Get",
+					"name": "Get UsuarioSolucao por id",
 					"id": "e2ee1bb8-9680-4034-95a7-4f5ab32ccce9",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
