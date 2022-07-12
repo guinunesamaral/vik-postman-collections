@@ -429,6 +429,18 @@
 						"url": "{{base_url}}/api/Perfil"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "d6d9e48b-af88-4dfe-908a-8cb6b3ef3a43",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "11dcb074-cba2-4c18-b7ec-45ae5dd59c04"
