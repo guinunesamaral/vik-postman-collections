@@ -849,14 +849,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"email\": \"string\",\r\n  \"senha\": \"string\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}/api/login"
+						"url": "{{base_url}}/api/login/validate"
 					},
 					"response": []
 				}
