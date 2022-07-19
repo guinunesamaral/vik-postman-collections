@@ -814,6 +814,11 @@
 			"id": "97aa8d13-4f21-4aa2-9769-760d9795134d"
 		},
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "3e675d7e-ec63-40fb-acc8-0dd5c71944d9"
+		},
+		{
 			"name": "New Request",
 			"id": "d1a33c3b-65be-4b6b-8a26-3ce9a45fbecc",
 			"protocolProfileBehavior": {
