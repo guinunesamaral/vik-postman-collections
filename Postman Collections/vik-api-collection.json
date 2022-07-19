@@ -837,6 +837,28 @@
 						"url": "{{base_url}}/api/login"
 					},
 					"response": []
+				},
+				{
+					"name": "Post Validacao",
+					"id": "89e34d41-0daa-46d3-9a51-0348bc7aecb7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"string\",\r\n  \"senha\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{base_url}}/api/login"
+					},
+					"response": []
 				}
 			],
 			"id": "3e675d7e-ec63-40fb-acc8-0dd5c71944d9"
