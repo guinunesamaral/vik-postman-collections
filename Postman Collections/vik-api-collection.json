@@ -190,7 +190,7 @@
 								}
 							}
 						},
-						"url": "{{azure_url}}/api/User/solicitacao-inativacao"
+						"url": "{{base_url}}/api/User/solicitacao-inativacao"
 					},
 					"response": []
 				}
