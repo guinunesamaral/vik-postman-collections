@@ -305,11 +305,17 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{token_jwt}}"
+							}
+						},
 						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"idResponsavel\": 1,\r\n  \"tipoResponsavel\": 1,\r\n  \"idUtilizador\": 28\r\n}",
+							"raw": "{\r\n\t\"idResponsavel\": 3,\r\n  \"tipoResponsavel\": 1,\r\n  \"idUtilizador\": 63\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
