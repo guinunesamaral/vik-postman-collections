@@ -193,6 +193,18 @@
 						"url": "{{base_url}}/api/User/solicitacao-inativacao"
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "c83e5e62-3116-4de2-b8f8-fff78023f699",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "c7c2e45a-a22c-4e50-ace6-f2bd655e0fbc"
