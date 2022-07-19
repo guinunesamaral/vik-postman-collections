@@ -713,14 +713,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idSolucao\": 3,\r\n  \"idUsuario\": 21,\r\n  \"idPlanoSolucao\": 105\r\n}",
+							"raw": "{\r\n  \"idSolucao\": 3,\r\n  \"idPlanoSolucao\": 105\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{base_url}}//api/user/associacoes/{IdUsuario}"
+						"url": "{{base_url}}/api/User/associacoes/41"
 					},
 					"response": []
 				}
