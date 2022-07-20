@@ -227,7 +227,9 @@
 								"id": "497f2402-cced-4184-ac08-02319f1fb23e",
 								"exec": [
 									"const jsonData = JSON.parse(responseBody);\r",
-									"pm.collectionVariables.set(\"token_jwt\", jsonData.data.token);"
+									"pm.collectionVariables.set(\"token_jwt\", jsonData.data.token);\r",
+									"\r",
+									"console.log(jsonData);"
 								],
 								"type": "text/javascript"
 							}
@@ -943,7 +945,7 @@
 	],
 	"variable": [
 		{
-			"id": "bdfe23a3-d48b-4e5c-9bec-113cb9d42872",
+			"id": "45facb8b-fa3e-4230-bbc5-d5e799810fe2",
 			"key": "token_jwt",
 			"value": ""
 		}
