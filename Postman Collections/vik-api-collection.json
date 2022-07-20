@@ -220,6 +220,18 @@
 				},
 				{
 					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "497f2402-cced-4184-ac08-02319f1fb23e",
+								"exec": [
+									"const token = JSON.parse(responseBody);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "c83e5e62-3116-4de2-b8f8-fff78023f699",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
