@@ -291,7 +291,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Utilizador By Id",
+					"name": "Get By Id",
 					"id": "7e02b91f-18a9-4686-af0c-eea0c5c6bc71",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1007,7 +1007,7 @@
 	],
 	"variable": [
 		{
-			"id": "58bc5ca5-8c0b-4392-970e-f651a61843c9",
+			"id": "0981063d-e9d9-4ae5-9801-f70cdb5af974",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
