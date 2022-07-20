@@ -957,10 +957,10 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "79e35fee-0ded-463a-9674-c51cabe448d3",
+				"id": "6748ff50-a9d5-4cd1-9a05-959bcd2fc5ce",
 				"type": "text/javascript",
 				"exec": [
-					"const postRequest = {",
+					"let postRequest = {",
 					"  url: `${pm.environment.get(\"azure_url\")}api/Login/`,",
 					"  method: \"POST\",",
 					"  header: {",
@@ -987,7 +987,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0ce3d99b-e3aa-4147-b68e-962931d7cbb2",
+				"id": "5a3e89c1-ed83-4011-bce1-548dec9f8daf",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -997,7 +997,7 @@
 	],
 	"variable": [
 		{
-			"id": "2b8227f9-b54e-4d84-a5d4-362176a83555",
+			"id": "fa9cbbef-553b-4785-81ba-123a46d44b8d",
 			"key": "token_jwt",
 			"value": ""
 		}
