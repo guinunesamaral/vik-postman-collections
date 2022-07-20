@@ -957,7 +957,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "af6f8bc1-2b1f-4de2-8638-56e0981bbab2",
+				"id": "79e35fee-0ded-463a-9674-c51cabe448d3",
 				"type": "text/javascript",
 				"exec": [
 					"const postRequest = {",
@@ -977,6 +977,7 @@
 					"    console.error(error);",
 					"  }",
 					"  const jsonData = JSON.parse(response);",
+					"  console.log(jsonData);",
 					"  pm.environment.set(\"token_jwt\", jsonData.data.token);",
 					"});",
 					""
@@ -986,7 +987,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "be2a7cd1-1b35-45ba-853a-a9e839b7a578",
+				"id": "0ce3d99b-e3aa-4147-b68e-962931d7cbb2",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -996,7 +997,7 @@
 	],
 	"variable": [
 		{
-			"id": "7726ec1d-6e92-4f58-95ff-0bd67e551d50",
+			"id": "2b8227f9-b54e-4d84-a5d4-362176a83555",
 			"key": "token_jwt",
 			"value": ""
 		}
