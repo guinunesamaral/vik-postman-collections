@@ -957,11 +957,11 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "273d0aca-7c3d-4679-bfdf-95d75f056ca4",
+				"id": "89117564-4b5e-41e3-b73f-1bb3a7c4e97a",
 				"type": "text/javascript",
 				"exec": [
 					"const postRequest = {",
-					"  url: `{pm.environment.get(\"azure_url\")}api/Login/`,",
+					"  url: `${pm.environment.get(\"azure_url\")}api/Login/`,",
 					"  method: \"POST\",",
 					"  header: {",
 					"    \"Content-Type\": \"application/json\"",
@@ -982,7 +982,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4ace20ba-e0c1-49a1-b58e-74bf675a7d8f",
+				"id": "7a5dfd4e-504f-40ac-965c-81fca8473103",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -992,7 +992,7 @@
 	],
 	"variable": [
 		{
-			"id": "00ab1d92-6a17-4fe6-a2db-30a4aa2fc1a0",
+			"id": "27b9e9fc-2658-4c9a-93ad-caa91eefa34a",
 			"key": "token_jwt",
 			"value": ""
 		}
