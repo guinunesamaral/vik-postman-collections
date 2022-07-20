@@ -941,5 +941,12 @@
 			],
 			"id": "3e675d7e-ec63-40fb-acc8-0dd5c71944d9"
 		}
+	],
+	"variable": [
+		{
+			"id": "056855e8-173e-4e11-8e8d-2145eed18749",
+			"key": "token_jwt",
+			"value": ""
+		}
 	]
 }
