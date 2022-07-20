@@ -224,7 +224,7 @@
 								}
 							}
 						},
-						"url": "{{azure_url}}/api/Login/"
+						"url": "{{base_url}}/api/Login/"
 					},
 					"response": []
 				}
