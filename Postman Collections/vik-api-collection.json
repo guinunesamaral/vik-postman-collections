@@ -229,7 +229,7 @@
 									"const jsonData = JSON.parse(responseBody);\r",
 									"pm.environment.set(\"token_jwt\", jsonData.data.token);\r",
 									"\r",
-									"console.log(jsonData.token);\r",
+									"console.log(jsonData);\r",
 									"console.log(pm.environment.get(\"token_jwt\"));"
 								],
 								"type": "text/javascript"
@@ -946,7 +946,7 @@
 	],
 	"variable": [
 		{
-			"id": "3e3e2a62-515a-41d2-9947-f457ff026ae2",
+			"id": "d92996a6-d895-46da-afcd-82a5fefdb21f",
 			"key": "token_jwt",
 			"value": ""
 		}
