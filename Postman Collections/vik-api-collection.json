@@ -957,7 +957,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "990fc519-1dbc-41d9-b1b7-032c3301588f",
+				"id": "5218e888-8988-4388-ab25-5d38fe6c2a8e",
 				"type": "text/javascript",
 				"exec": [
 					"const postRequest = {",
@@ -970,14 +970,13 @@
 					"    \"email\": \"vik@gmail.com\",",
 					"    \"senha\": \"MyPass@13\"",
 					"  })",
-					"}",
+					"};",
 					"",
 					"pm.sendRequest(postRequest, (error, response) => {",
 					"  if (error) {",
 					"    console.error(error);",
 					"  }",
-					"  const res = JSON.parse(response);",
-					"  console.log(res);",
+					"  console.log(response.json())",
 					"});",
 					""
 				]
@@ -986,7 +985,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ba5989a3-f3fd-4429-978c-401bde64c386",
+				"id": "c9e62e79-4e41-4923-8256-a5f59436a5d5",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -996,7 +995,7 @@
 	],
 	"variable": [
 		{
-			"id": "acdff650-ad8e-496b-82c1-9019ddbe2590",
+			"id": "9106ada7-cd53-41e5-9498-c8084c22e4e8",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
