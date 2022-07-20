@@ -957,11 +957,9 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "8449cc21-4fe7-48bc-bc83-c4f353288ef4",
+				"id": "5833cda9-8b72-4051-b690-3f76b1b184fe",
 				"type": "text/javascript",
 				"exec": [
-					"console.log(pm.environment.get(\"azure_url\"))",
-					"",
 					"const postRequest = {",
 					"  url: `${pm.environment.get(\"azure_url\")}api/Login/`,",
 					"  method: \"POST\",",
@@ -989,7 +987,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "66b2442b-7086-42c2-9a75-01c46796aacc",
+				"id": "0e153174-92ed-4f57-aa9f-5fe7c01989c5",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -999,7 +997,7 @@
 	],
 	"variable": [
 		{
-			"id": "5560f29d-791d-4e96-81dc-fa8f736be53a",
+			"id": "722f52b9-8682-40c5-a58d-80260ca94409",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
