@@ -957,11 +957,11 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "d88b12a7-061b-44c7-bea0-1e05be71957a",
+				"id": "0cad3dcb-bc8b-4c74-8684-3f8834b11f53",
 				"type": "text/javascript",
 				"exec": [
 					"const azure_url = pm.environment.get(\"azure_url\");",
-					"pm.sendRequest(`${azure_url}api/Login/`)",
+					"pm.sendRequest(`${azure_url}api/Login/`);",
 					"",
 					"const jsonData = JSON.parse(responseBody);",
 					"pm.environment.set(\"token_jwt\", jsonData.data.token);"
@@ -971,7 +971,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "9c0e0952-ea80-41af-b34b-bd924e9f898a",
+				"id": "79ebea6e-a674-4ac5-947f-6aa632720307",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -981,7 +981,7 @@
 	],
 	"variable": [
 		{
-			"id": "d71572ef-6c7b-4121-a3bd-8e7647ae6c83",
+			"id": "09c44646-3814-44f0-85f0-81bbe552eda5",
 			"key": "token_jwt",
 			"value": ""
 		}
