@@ -101,6 +101,18 @@
 				},
 				{
 					"name": "Get By Id",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "21e6210a-72e6-4be9-9024-93e07a010add",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "539208eb-cd07-4c1f-b305-154c9a60cbb5",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -943,7 +955,7 @@
 	],
 	"variable": [
 		{
-			"id": "9d69285d-96d2-4345-b7df-3b4cb7b6017c",
+			"id": "4fc101a4-e0d1-459d-8b5d-376975cea949",
 			"key": "token_jwt",
 			"value": ""
 		}
