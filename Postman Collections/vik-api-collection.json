@@ -957,11 +957,11 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "9d94c3a4-b796-47d4-b7e8-0e4fa0e54997",
+				"id": "b2d7f4e1-a7e8-4d6e-abcf-3dcc44b0dfba",
 				"type": "text/javascript",
 				"exec": [
 					"const postRequest = {",
-					"  url: `${pm.environment.get(\"base_url\")}api/Login/`,",
+					"  url: `${pm.environment.get(\"base_url\")}/api/Login/`,",
 					"  method: \"POST\",",
 					"  header: {",
 					"    \"Content-Type\": \"application/json\"",
@@ -987,7 +987,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0a05343d-240d-4e43-8c1b-6b783358593d",
+				"id": "a7c44863-1530-4390-a94c-9a449b25f67f",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -997,7 +997,7 @@
 	],
 	"variable": [
 		{
-			"id": "a6fd855a-de85-4d74-8be0-621dec1226df",
+			"id": "09a0b478-962a-4616-b1af-464ec6eef4f3",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
