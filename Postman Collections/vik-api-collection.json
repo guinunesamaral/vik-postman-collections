@@ -953,9 +953,35 @@
 			"id": "3e675d7e-ec63-40fb-acc8-0dd5c71944d9"
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "d88b12a7-061b-44c7-bea0-1e05be71957a",
+				"type": "text/javascript",
+				"exec": [
+					"const azure_url = pm.environment.get(\"azure_url\");",
+					"pm.sendRequest(`${azure_url}api/Login/`)",
+					"",
+					"const jsonData = JSON.parse(responseBody);",
+					"pm.environment.set(\"token_jwt\", jsonData.data.token);"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "9c0e0952-ea80-41af-b34b-bd924e9f898a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "4fc101a4-e0d1-459d-8b5d-376975cea949",
+			"id": "d71572ef-6c7b-4121-a3bd-8e7647ae6c83",
 			"key": "token_jwt",
 			"value": ""
 		}
