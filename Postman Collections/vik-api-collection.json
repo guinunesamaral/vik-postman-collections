@@ -226,7 +226,9 @@
 							"script": {
 								"id": "497f2402-cced-4184-ac08-02319f1fb23e",
 								"exec": [
-									"const token = JSON.parse(responseBody);"
+									"const jsonData = pm.response.json();\r",
+									"const access_token = jsonData.access_token;\r",
+									"pm.collectionVariables.set(\"token_jwt\", access_token);"
 								],
 								"type": "text/javascript"
 							}
