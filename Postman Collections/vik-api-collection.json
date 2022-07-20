@@ -298,7 +298,7 @@
 							"script": {
 								"id": "524d8e59-7c3e-4430-b291-0049bcb87a09",
 								"exec": [
-									"console.log(\"oi\");"
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -1019,7 +1019,7 @@
 	],
 	"variable": [
 		{
-			"id": "1535f6c1-2b6e-4cf6-9b93-c0f858b3a142",
+			"id": "87c67be9-566f-4750-9683-d8ecc7501a01",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
