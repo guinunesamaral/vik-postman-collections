@@ -1015,7 +1015,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "0e28d71f-3d93-4d51-bc84-a410d743c15b",
+				"id": "58e4e090-a748-4bd4-b205-c5174317f4a4",
 				"type": "text/javascript",
 				"exec": [
 					"if (!validateToken()) login();",
@@ -1025,7 +1025,6 @@
 					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/validate`,",
 					"    method: \"POST\",",
 					"    header: {",
-					"      \"Content-Type\": \"application/json\",",
 					"      \"Authorization\": `Bearer ${pm.environment.get(\"token_jwt\")}`",
 					"    }",
 					"  };",
@@ -1067,7 +1066,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "2eb10fc0-0d39-4923-9cf8-e127b280c179",
+				"id": "f874832c-fa8b-4194-b0cf-f8b4e211f380",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1077,7 +1076,7 @@
 	],
 	"variable": [
 		{
-			"id": "ecd51fbe-a195-4bbc-aba0-281c9cd0aba7",
+			"id": "80dbc91f-60b4-4cf3-822f-10704a17543c",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
