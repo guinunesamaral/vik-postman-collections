@@ -1003,7 +1003,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/login/validate"
+						"url": "{{base_url}}/api/Login/validate"
 					},
 					"response": []
 				}
@@ -1074,7 +1074,7 @@
 	],
 	"variable": [
 		{
-			"id": "95e903a1-0fac-4f66-9652-83ab228fbada",
+			"id": "9f659e1f-e932-4660-9002-29f70389b2a3",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
