@@ -855,23 +855,6 @@
 					"response": []
 				},
 				{
-					"name": "Get By Id UtilizadorSolucao",
-					"id": "f150636a-2370-4190-b6fc-e6c11d118abf",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
-						"url": "{{base_url}}/api/Utilizador/associacoes/{idUtilizador}"
-					},
-					"response": []
-				},
-				{
 					"name": "Associacao UtilizadorSolucao",
 					"id": "4928719e-18d9-4f45-9944-cde68f154410",
 					"protocolProfileBehavior": {
@@ -1043,7 +1026,7 @@
 	],
 	"variable": [
 		{
-			"id": "0a88e735-c9ac-467b-950c-9431eb8036d7",
+			"id": "bf755e7b-f04f-4e41-b42e-7fc755f520c9",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
