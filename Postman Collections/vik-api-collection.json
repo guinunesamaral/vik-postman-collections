@@ -1015,7 +1015,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1256ac68-9003-4958-a80c-52ca0c476e31",
+				"id": "e75325cb-a092-45ca-98e3-783103d28b87",
 				"type": "text/javascript",
 				"exec": [
 					"if (!validateToken()) login();",
@@ -1040,7 +1040,7 @@
 					"}",
 					"",
 					"function login() {",
-					"  const postRequest = {",
+					"  const loginRequest = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/`,",
 					"    method: \"POST\",",
 					"    header: {",
@@ -1052,7 +1052,7 @@
 					"    })",
 					"  };",
 					"",
-					"  pm.sendRequest(postRequest, (error, response) => {",
+					"  pm.sendRequest(loginRequest, (error, response) => {",
 					"    if (error) {",
 					"      console.error(error);",
 					"    }",
@@ -1067,7 +1067,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "cc695ac0-3e2d-495d-9a6b-301e3c6816d4",
+				"id": "5b52a1c5-6da8-4c1b-b3ca-15bffbd41001",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1077,7 +1077,7 @@
 	],
 	"variable": [
 		{
-			"id": "a542dce4-7c9c-4725-bd9f-96383035bdf1",
+			"id": "36c6c193-a2fa-4260-a0e4-e010c5e14b92",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
