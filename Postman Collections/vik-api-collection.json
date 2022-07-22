@@ -986,11 +986,10 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "38f918ac-f8b7-4570-a17b-74fa34ab6a8b",
+				"id": "f3d83d88-17f6-4eb9-bf52-82b65eb846f9",
 				"type": "text/javascript",
 				"exec": [
 					"if (validateToken() === false) {",
-					"  console.log(\"here\");",
 					"  login();",
 					"}",
 					"",
@@ -1008,7 +1007,6 @@
 					"      console.error(err);",
 					"",
 					"    const json = res.json();",
-					"    console.log(json.data !== null ? json.data.isValid : false)",
 					"    return json.data !== null ? json.data.isValid : false;",
 					"  });",
 					"}",
@@ -1043,7 +1041,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "74b994e3-b86c-452a-af73-cd963fd78a28",
+				"id": "3cb1bc93-0c42-408a-84f0-2e00a13fa4a6",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1053,7 +1051,7 @@
 	],
 	"variable": [
 		{
-			"id": "4efd9f5f-865f-46b1-bfe9-ab603cfd3db9",
+			"id": "9ab106f2-0afb-4c68-a73c-3256b6ec1fa2",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
