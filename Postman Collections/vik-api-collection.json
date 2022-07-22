@@ -687,6 +687,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{tokenJWT}}"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"url": "{{azure_url}}/api/Departamento"
