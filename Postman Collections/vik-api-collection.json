@@ -761,12 +761,6 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": {
-								"token": "{{tokenJWT}}"
-							}
-						},
 						"method": "GET",
 						"header": [],
 						"body": {
