@@ -872,7 +872,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkciLCJuYW1laWQiOiI0MSIsInJvbGUiOiJVUyIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2hhc2giOiIiLCJuYmYiOjE2NTgyNTI1MDMsImV4cCI6MTY1ODI1OTcwMywiaWF0IjoxNjU4MjUyNTAzLCJpc3MiOiJhdXRoVGVtcGxhdGVJc3N1ZXIiLCJhdWQiOiJncHNvY2lhbC53ZWIudWkuYXVkaWVuY2UifQ.WucIaxQM5AgMmLwbgAFkuUtWdXraUHENMGGtNhCZ4Ms"
+								"token": ""
 							}
 						},
 						"method": "POST",
