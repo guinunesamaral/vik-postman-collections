@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "5a2df4f2-cc28-4784-b47c-bc53a96f3bb9",
+				"id": "a51c1457-1ad3-4a6a-b497-0ae89830ff4e",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -939,8 +939,6 @@
 					"      throw Error(\"Invalid Token.\")",
 					"    }",
 					"  });",
-					"",
-					"  return pm.environment.get(\"isTokenValid\");",
 					"}",
 					"",
 					"const login = () => {",
@@ -980,7 +978,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e2fd078c-582a-4ff2-8468-f1d18c698f99",
+				"id": "eecbde40-37c1-4af3-95a2-8607841b1f5c",
 				"type": "text/javascript",
 				"exec": [
 					""
