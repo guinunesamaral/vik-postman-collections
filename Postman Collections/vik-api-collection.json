@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "5b2890bb-bddc-4ab0-9922-42db610a936e",
+				"id": "62dfc2b0-8dac-44ce-a38e-f37cfb8f6042",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1004,7 +1004,6 @@
 					"    if (err || !json.data) {",
 					"      return false;",
 					"    }",
-					"    console.log(json.data.isValid)",
 					"    return json.data.isValid;",
 					"  });",
 					"}",
@@ -1045,7 +1044,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "01f945f8-a8a9-49fe-80b7-b9d88c445b4a",
+				"id": "84f8405c-f8c0-485b-9c08-75c9d3c6bc11",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1055,7 +1054,7 @@
 	],
 	"variable": [
 		{
-			"id": "53fb03c1-de81-42d3-92a5-26013714e23b",
+			"id": "a46b7d82-08f5-468b-990e-bcb0ef2baf3a",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
