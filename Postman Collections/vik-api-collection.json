@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a14234e4-00b6-4300-baf8-54be59bc300d",
+				"id": "22788eca-2b6d-4366-88b5-46fa51fcf4b4",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -979,7 +979,7 @@
 					"",
 					"const main = () => {",
 					"  validateToken();",
-					"  console.log(Boolean(pm.environment.get(\"isTokenValid\")));",
+					"  console.log(\"isTokenValid\", Boolean(pm.environment.get(\"isTokenValid\")));",
 					"  if (!Boolean(pm.environment.get(\"isTokenValid\"))) {",
 					"    login();",
 					"  } else {",
@@ -994,7 +994,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "b5c08023-0284-4640-a011-7859d8473e21",
+				"id": "641eb5ce-8269-48e1-b90c-db4789c9b833",
 				"type": "text/javascript",
 				"exec": [
 					""
