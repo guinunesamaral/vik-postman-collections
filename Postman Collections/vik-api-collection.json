@@ -1066,11 +1066,17 @@
 			"id": "3e675d7e-ec63-40fb-acc8-0dd5c71944d9"
 		}
 	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "{{tokenJWT}}"
+		}
+	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "35771ac6-625f-4b91-821d-1f688ffbaabc",
+				"id": "6c529b1b-2b5c-4ce7-b8cb-71e56f41cc00",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1130,7 +1136,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "88e90fbe-3960-4a0e-9960-24c3a2172219",
+				"id": "440d2aa8-0f05-4699-aafc-a99f65949b3e",
 				"type": "text/javascript",
 				"exec": [
 					""
