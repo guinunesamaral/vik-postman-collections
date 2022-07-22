@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "00f7e16e-09d4-44b0-a65a-7fbe2da442b1",
+				"id": "4bf48657-6668-4565-b86d-f33d8d2e26f4",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -938,7 +938,7 @@
 					"console.log(\"err\", err);",
 					"    console.log(\"res\", res);",
 					"",
-					"    if (err || !json.data || json.data.code !== 200) {",
+					"    if (err || !json.data || json.data.status === \"Unauthorized\") {",
 					"      pm.environment.set(\"isTokenValid\", false);",
 					"    }",
 					"    else {",
@@ -986,7 +986,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0534689c-d3df-42c8-85c3-76da24accd0e",
+				"id": "be817521-b757-4751-8c51-975df8820a33",
 				"type": "text/javascript",
 				"exec": [
 					""
