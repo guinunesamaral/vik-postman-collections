@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "950c32bc-c1c5-47bb-9768-2ddeba418ae8",
+				"id": "e6759b39-4615-4876-99af-af480e6de3d5",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1033,7 +1033,7 @@
 					"  });",
 					"}",
 					"",
-					"const main = () => validateToken() === false ? login() : null;",
+					"const main = () => !validateToken() ? login() : null;",
 					"",
 					"main();"
 				]
@@ -1042,7 +1042,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "24f0a009-b5d1-4625-ba0e-99a9fa2e432b",
+				"id": "75fb3214-fca8-4160-83c3-a2a010ef269b",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1052,7 +1052,7 @@
 	],
 	"variable": [
 		{
-			"id": "29719bb6-bbac-4ca3-91d7-4fd4c159373a",
+			"id": "ed65c0e2-97d8-4540-b99f-8b264038ee93",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
