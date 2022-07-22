@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "44393e23-a707-4d85-8614-cbb2b9a1ce88",
+				"id": "eb523eb8-6760-493d-b599-159525efba34",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -957,7 +957,7 @@
 					"  pm.sendRequest(req, (err, res) => {",
 					"    const json = res.json();",
 					"    console.log(json)",
-					"    if (!err && !json.errors && json.data.data) {",
+					"    if (!err && !json.errors && json.data.token) {",
 					"      pm.environment.set(\"tokenJWT\", json.data.token);",
 					"    }",
 					"  });",
@@ -978,7 +978,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "9990fda7-3373-421d-b363-cfd947385582",
+				"id": "ac0a35fa-f9fa-4990-8ccc-765970ae079a",
 				"type": "text/javascript",
 				"exec": [
 					""
