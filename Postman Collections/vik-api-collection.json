@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "67d2b738-a6a5-46c1-afc6-f33544652327",
+				"id": "5d1b7c0b-10ee-4d42-ba37-5193ace986e1",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1036,15 +1036,14 @@
 					"console.log(pm.variables.get(\"isTokenValid\"))",
 					"",
 					"const main = () => pm.variables.get(\"isTokenValid\") ? login() : null;",
-					"",
-					"main();"
+					""
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "cd7cffa4-0be5-4802-bd78-e23936a3ca2c",
+				"id": "6489d49a-f785-428e-82b1-ecf482114d83",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1054,7 +1053,7 @@
 	],
 	"variable": [
 		{
-			"id": "c8fabfc4-6af9-4b6b-8158-1f0e19a50392",
+			"id": "91fed236-24ce-4a4e-811a-14e1f59e03af",
 			"key": "isTokenValid",
 			"value": "false",
 			"type": "string"
