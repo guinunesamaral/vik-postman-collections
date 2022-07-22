@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "5bb2d74d-4b4c-4f65-8bda-02cfa69b6e04",
+				"id": "895a9b50-012d-4a5a-86d8-a89a5d53c298",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1044,20 +1044,12 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "b273eb5a-35c5-478f-9f9a-a88cb4981a90",
+				"id": "38eb280a-3f0b-4433-b67f-7cea84b8d264",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
-		}
-	],
-	"variable": [
-		{
-			"id": "091704fa-246f-4536-ad9e-20c707eafd9d",
-			"key": "isTokenValid",
-			"value": "false",
-			"type": "string"
 		}
 	]
 }
