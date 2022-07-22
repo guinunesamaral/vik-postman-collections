@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "3f8ca1bd-d05d-443a-ba30-b8f8525f99f8",
+				"id": "69ef1a6e-f59f-4bf4-a689-0896c5cceb62",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1000,7 +1000,7 @@
 					"",
 					"  pm.sendRequest(req, (err, res) => {",
 					"    const json = res.json();",
-					"    ",
+					"    console.log(!err, !json.data)",
 					"    if (err || !json.data) {",
 					"      pm.environment.set(\"isTokenValid\", false);",
 					"    }",
@@ -1045,7 +1045,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f21fe62d-9197-49c3-a7af-160d27d9a024",
+				"id": "e4ba2511-94bf-4833-8e18-7dec3ed9101c",
 				"type": "text/javascript",
 				"exec": [
 					""
