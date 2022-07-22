@@ -896,7 +896,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "{{token_jwt}}"
+								"token": "{{tokenJWT}}"
 							}
 						},
 						"method": "GET",
