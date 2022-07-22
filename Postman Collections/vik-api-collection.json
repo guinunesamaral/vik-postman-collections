@@ -986,14 +986,10 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ba92eb44-596e-4f10-bd07-1151cba76397",
+				"id": "1e0cd025-6b76-4b0b-b056-0a95e582a872",
 				"type": "text/javascript",
 				"exec": [
-					"if (!validateToken()) {",
-					"  login();",
-					"}",
-					"",
-					"function validateToken() {",
+					"const validateToken = () => {",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/validate`,",
 					"    method: \"POST\",",
@@ -1013,7 +1009,7 @@
 					"  });",
 					"}",
 					"",
-					"function login() {",
+					"const login = () => {",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/`,",
 					"    method: \"POST\",",
@@ -1036,6 +1032,10 @@
 					"    else",
 					"      throw new Error(\"Invalid login.\");",
 					"  });",
+					"}",
+					"",
+					"if (!validateToken()) {",
+					"  login();",
 					"}"
 				]
 			}
@@ -1043,7 +1043,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7b02de50-d017-4a26-aad6-2a66c8a8dd01",
+				"id": "47e83513-d63e-4b3f-8e80-b4bc8dc40f9c",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1053,7 +1053,7 @@
 	],
 	"variable": [
 		{
-			"id": "0968c5e6-cac4-45a4-837d-359a66f08d90",
+			"id": "39f3f6d7-8cdc-4c7a-a62b-7edf17db9af5",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
