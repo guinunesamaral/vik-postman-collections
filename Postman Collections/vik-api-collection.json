@@ -753,6 +753,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{tokenJWT}}"
+							}
+						},
 						"method": "PUT",
 						"header": [],
 						"body": {
