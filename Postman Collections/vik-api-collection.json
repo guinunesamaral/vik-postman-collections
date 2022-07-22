@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ee3f3a0e-d458-4b1a-a695-51ed07553640",
+				"id": "9a3a645c-45e8-499b-8912-91de236e0a73",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -964,9 +964,9 @@
 					"}",
 					"",
 					"const main = () => {",
-					"  try {",
-					"    validateToken();",
-					"  } catch(_) {",
+					"  validateToken();",
+					"",
+					"  if (pm.environment.get(\"tokenJWT\")) {",
 					"    login();",
 					"  }",
 					"};",
@@ -978,7 +978,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ebdff67d-c4a6-46f2-a885-51ae57545561",
+				"id": "a7b98cb9-35ef-4a70-9e2c-2fb475d387c0",
 				"type": "text/javascript",
 				"exec": [
 					""
