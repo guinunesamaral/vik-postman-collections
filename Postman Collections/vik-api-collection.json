@@ -126,7 +126,7 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{azure_url}}/api/User/2"
+						"url": "{{base_url}}/api/User/2"
 					},
 					"response": []
 				},
@@ -1049,7 +1049,7 @@
 	],
 	"variable": [
 		{
-			"id": "9248e887-d36c-4305-86de-933b718e23cc",
+			"id": "d12ceb00-f6f2-4ea0-a80f-11c69083b59f",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
