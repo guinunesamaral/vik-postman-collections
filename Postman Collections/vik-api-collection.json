@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "7e3182f4-9428-4ad7-9dd1-d7df049b19f9",
+				"id": "1f0fe5e6-3bf7-47a6-ad4a-544541d9b6ea",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -997,8 +997,6 @@
 					"      \"Authorization\": `Bearer ${pm.environment.get(\"tokenJWT\")}`",
 					"    }",
 					"  };",
-					"",
-					"  console.log(pm.environment.get(\"tokenJWT\"))",
 					"",
 					"  pm.sendRequest(req, (err, res) => {",
 					"    const json = res.json();",
@@ -1049,7 +1047,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "9a90dcb3-75ff-4df9-877d-d437ecb7fd11",
+				"id": "f98d33da-ef1a-463b-aeef-7750bc29651a",
 				"type": "text/javascript",
 				"exec": [
 					""
