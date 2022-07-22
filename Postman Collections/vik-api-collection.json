@@ -815,6 +815,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{tokenJWT}}"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"url": "{{base_url}}/api/Solucao"
