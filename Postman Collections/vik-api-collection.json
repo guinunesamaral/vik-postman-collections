@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ad946fed-e124-402a-a448-24682ce05bc3",
+				"id": "6fba002a-938e-445a-a6c7-7302652b5b26",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1035,7 +1035,7 @@
 					"}",
 					"",
 					"const v = validateToken();",
-					"const main = () => v ? login() : null;",
+					"const main = () => ??v ? login() : null;",
 					"",
 					"main();"
 				]
@@ -1044,7 +1044,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4440daf0-a232-4d24-8032-388edf69c944",
+				"id": "992ba1ab-90b1-4fdc-9302-7fad1b1d498a",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1054,7 +1054,7 @@
 	],
 	"variable": [
 		{
-			"id": "6707348f-af4d-4a99-a93e-50e44b0ad240",
+			"id": "8b6b6ed0-5809-4db2-b815-6733469433f5",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
