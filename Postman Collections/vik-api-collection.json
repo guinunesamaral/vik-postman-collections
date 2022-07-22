@@ -986,10 +986,10 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "7a475b7a-3cbc-45c9-858f-05ac5e7471ab",
+				"id": "78333fea-fd5c-4bb3-8965-a585f1bedf42",
 				"type": "text/javascript",
 				"exec": [
-					"const validateToken = () => {",
+					"const validateToken = async () => {",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/validate`,",
 					"    method: \"POST\",",
@@ -1000,7 +1000,7 @@
 					"",
 					"  let isValid = undefined;",
 					"  ",
-					"  pm.sendRequest(req, (err, res) => {",
+					"  await pm.sendRequest(req, (err, res) => {",
 					"    const json = res.json();",
 					"    ",
 					"    if (err || !json.data) {",
@@ -1048,7 +1048,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4916fb7a-3eb1-4619-8e25-50dc121a8932",
+				"id": "1e11caad-da51-4a4b-ac31-952f4dcb209f",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1058,7 +1058,7 @@
 	],
 	"variable": [
 		{
-			"id": "fa5c993d-4ca5-4ab3-b257-51c89375c9e9",
+			"id": "b0ef8af2-a9e5-42e1-9653-c66d17cee68e",
 			"key": "token_jwt",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InRlc3RlOTk4IiwibmFtZWlkIjoiNjgiLCJyb2xlIjoiVVMiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9oYXNoIjoiIiwibmJmIjoxNjU4MzQyMjcxLCJleHAiOjE2NTgzNDk0NzEsImlhdCI6MTY1ODM0MjI3MSwiaXNzIjoiYXV0aFRlbXBsYXRlSXNzdWVyIiwiYXVkIjoiZ3Bzb2NpYWwud2ViLnVpLmF1ZGllbmNlIn0.aHEo12EzNI1WJ4F_aDzbC-okfZjFdbcnnll4jo4w03Y"
 		}
