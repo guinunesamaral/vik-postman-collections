@@ -986,7 +986,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "072e9548-3f3b-4be8-93f5-a790de5ccd13",
+				"id": "f388a6f9-dfab-417d-a062-903aa7528ff6",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1006,6 +1006,8 @@
 					"    }",
 					"    pm.variables.set(\"isTokenValid\", json.data.isValid);",
 					"  });",
+					"",
+					"  return pm.variables.get(\"isTokenValid\");",
 					"}",
 					"",
 					"const login = () => {",
@@ -1033,7 +1035,9 @@
 					"  });",
 					"}",
 					"",
-					"const main = () => !Boolean(pm.variables.get(\"isTokenValid\")) ? login() : null;",
+					"const main = () => {",
+					"  validateToken();",
+					"}",
 					"",
 					"main();"
 				]
@@ -1042,7 +1046,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ad90951f-4e4f-4f2f-9b8c-a3215ec35464",
+				"id": "30a2bd14-fa4c-43b8-86d6-f4596c4ca850",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1052,7 +1056,7 @@
 	],
 	"variable": [
 		{
-			"id": "9f1b30aa-d8f8-4b44-802c-9ac2e927cf0e",
+			"id": "64bba478-926c-4f49-9c8d-43fd151a9c63",
 			"key": "isTokenValid",
 			"value": "false",
 			"type": "string"
