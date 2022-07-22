@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "c2115209-f3ee-41fe-aead-faa37bab4af2",
+				"id": "900f643d-87c5-457e-af09-ae0b1b793182",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -969,7 +969,7 @@
 					"    // console.log(\"err\", err);",
 					"    // console.log(\"res\", res);",
 					"",
-					"    if (err || !json.data || json.data.errors) {",
+					"    if (err || json.data.errors || !json.data) {",
 					"      console.error(err);",
 					"    }",
 					"    else {",
@@ -996,7 +996,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f007f341-407d-4f90-a009-021ee5c54041",
+				"id": "5162ec26-81fc-47d5-9f1d-e5427983c2ae",
 				"type": "text/javascript",
 				"exec": [
 					""
