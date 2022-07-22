@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "f5422e88-5a0e-44fd-abf2-c991036587c9",
+				"id": "eb0fda33-a10a-4318-a13d-e8c5da102c1e",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -945,6 +945,7 @@
 					"      pm.environment.set(\"isTokenValid\", json.data.isValid);",
 					"    }",
 					"  });",
+					"",
 					"  return pm.environment.get(\"isTokenValid\");",
 					"}",
 					"",
@@ -985,7 +986,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "00a13c54-ffc1-43ac-9b97-c339f8fcf370",
+				"id": "11ed9dd1-34a8-4ed0-b484-dd6126f64b62",
 				"type": "text/javascript",
 				"exec": [
 					""
