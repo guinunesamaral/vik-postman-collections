@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e4710825-939d-4db4-a0f2-186d5d05a9f3",
+				"id": "74da8ceb-df0b-4d10-b81b-dc8ce7885b14",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async (callback) => {",
@@ -968,7 +968,7 @@
 					"      pm.environment.set(\"tokenJWT\", json.data.token);",
 					"      resolve(json.data.token);",
 					"    }",
-					"  })",
+					"  });",
 					"}",
 					"",
 					"const main = async () => {",
@@ -980,7 +980,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "20a9d4ed-3032-4d1b-931a-1b97e6989377",
+				"id": "0bd57913-8e06-4f00-9935-4f752cbd94ff",
 				"type": "text/javascript",
 				"exec": [
 					""
