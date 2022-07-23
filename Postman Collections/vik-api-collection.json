@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "0ff547ae-a590-4b4a-91c5-83b6db5de5d4",
+				"id": "3dcf1893-ac7a-4e39-b0ea-0f2127e6d871",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -958,7 +958,7 @@
 					"      \"senha\": \"MyPass@13\"",
 					"    })",
 					"  };",
-					"  console.log(pm.request);",
+					"",
 					"  pm.sendRequest(req, (err, res) => {",
 					"    const json = res.json();",
 					"",
@@ -987,7 +987,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0aeb1412-3cbb-4ab4-b956-aa8971a56ca6",
+				"id": "c666bd1d-b215-491b-9e25-395b1958ebe0",
 				"type": "text/javascript",
 				"exec": [
 					""
