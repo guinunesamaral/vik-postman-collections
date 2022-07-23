@@ -923,7 +923,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "704fa636-85bc-4cd7-9078-5ac48c64d2b1",
+				"id": "f5dc1979-b2ea-456c-9f27-2e0519c85d66",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -979,14 +979,16 @@
 					"  if (!isValid) {",
 					"    login();",
 					"  }",
-					"}"
+					"}",
+					"",
+					"main();"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "864bab0c-1fc0-49d4-946c-7f6b06975f05",
+				"id": "6a6bd229-daea-4df9-8066-3ffca558fc12",
 				"type": "text/javascript",
 				"exec": [
 					""
