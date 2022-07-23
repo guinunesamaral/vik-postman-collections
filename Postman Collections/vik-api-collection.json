@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "25a1a48f-de8a-40aa-b467-8c9f9994f0ad",
+				"id": "6213a51c-360e-4faf-bc0c-61e54434c299",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -933,7 +933,7 @@
 					"  };",
 					"",
 					"  return new Promise(",
-					"    (resolve, reject) => {",
+					"    (resolve, reject) =>",
 					"      pm.sendRequest(req, (err, res) => {",
 					"        const json = res.json();",
 					"",
@@ -943,8 +943,7 @@
 					"          resolve(json.data);",
 					"        }",
 					"      })",
-					"    }",
-					"  )",
+					"  );",
 					"}",
 					"",
 					"const login = () => {",
@@ -970,7 +969,7 @@
 					"}",
 					"",
 					"const main = () => {",
-					"  const isTokenValid = validateToken();",
+					"  validateToken().then(res => console.log(res));",
 					"  console.log(isTokenValid)",
 					"  if (!pm.environment.get(\"tokenJWT\")) {",
 					"    login();",
@@ -984,7 +983,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "516965a8-1826-4315-9e66-8a0d7738b0c3",
+				"id": "db78a1e4-4d2d-41bb-8328-c29d6e004236",
 				"type": "text/javascript",
 				"exec": [
 					""
