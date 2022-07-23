@@ -617,7 +617,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{azure_url}}/api/Departamento"
+						"url": "{{base_url}}/api/Departamento"
 					},
 					"response": []
 				},
