@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "dbcca83b-f436-44ab-a8ce-1a2ae14e2a73",
+				"id": "667ecde9-15fc-4911-a117-721a22b02adf",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -977,7 +977,29 @@
 					"  console.log(isValid)",
 					"",
 					"  if (!isValid) {",
-					"    login();",
+					"    const req = {",
+					"    url: `${pm.environment.get(\"azure_url\")}/api/login/`,",
+					"    method: \"POST\",",
+					"    header: {",
+					"      \"Content-Type\": \"application/json\"",
+					"    },",
+					"    body: JSON.stringify({",
+					"      \"email\": \"vik@gmail.com\",",
+					"      \"senha\": \"MyPass@13\"",
+					"    })",
+					"  };",
+					"",
+					"  pm.sendRequest(req, (err, res) => {",
+					"    const json = res.json();",
+					"",
+					"    console.log(\"login\")",
+					"    if (err || json.errors) {",
+					"      reject(err ? err : json.errors);",
+					"    } else {",
+					"      pm.environment.set(\"tokenJWT\", json.data.token);",
+					"      resolve(json.data.token);",
+					"    }",
+					"  })",
 					"  }",
 					"}",
 					"",
@@ -988,7 +1010,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7fa67433-7a4d-4410-9e53-5700c8644994",
+				"id": "8dc70e46-5a90-46c9-9aa6-b1558eedcd51",
 				"type": "text/javascript",
 				"exec": [
 					""
