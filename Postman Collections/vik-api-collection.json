@@ -617,22 +617,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{base_url}}/api/Departamento?",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"api",
-								"Departamento"
-							],
-							"query": [
-								{
-									"key": "",
-									"value": null
-								}
-							]
-						}
+						"url": "{{base_url}}/api/Departamento"
 					},
 					"response": []
 				},
