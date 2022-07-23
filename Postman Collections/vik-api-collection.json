@@ -923,7 +923,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b1703a3b-def9-4031-b379-44a990715ec0",
+				"id": "5d94868b-64a0-44a4-a8f3-15d15dfbadad",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -941,7 +941,7 @@
 					"",
 					"      console.log(err, res, json);",
 					"",
-					"      if (err || json.errors || !json.data || json.data.status === \"Unauthorized\") {",
+					"      if (err || res.status === \"Unauthorized\" || json.data.status === \"Unauthorized\") {",
 					"        reject({ isValid: false });",
 					"      } else {",
 					"        resolve(json.data);",
@@ -987,7 +987,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7f7f2af3-3398-4f0c-b951-87005b080f72",
+				"id": "6514ddda-f8bf-4427-9e66-41a3a7f88633",
 				"type": "text/javascript",
 				"exec": [
 					""
