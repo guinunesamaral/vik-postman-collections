@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "475a947a-ac4f-4cb1-b178-6554abe2f4dc",
+				"id": "fe9848bc-838d-4d2d-b17d-97b033eca88e",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -946,7 +946,7 @@
 					"  .then(res => res.isValid);",
 					"}",
 					"",
-					"const login = async () => {",
+					"const login = () => {",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/login/`,",
 					"    method: \"POST\",",
@@ -959,20 +959,16 @@
 					"    })",
 					"  };",
 					"",
-					"  return new Promise((resolve, reject) => ",
-					"    pm.sendRequest(req, (err, res) => {",
-					"      const json = res.json();",
+					"  pm.sendRequest(req, (err, res) => {",
+					"    const json = res.json();",
 					"",
-					"      if (err || json.errors) {",
-					"        reject(err ? err : json.errors);",
-					"      } else {",
-					"        pm.environment.set(\"tokenJWT\", json.data.token);",
-					"        resolve(json.data.token);",
-					"      }",
-					"    })",
-					"  )",
-					"  .then(res => res)",
-					"  .catch(err => err);",
+					"    if (err || json.errors) {",
+					"      reject(err ? err : json.errors);",
+					"    } else {",
+					"      pm.environment.set(\"tokenJWT\", json.data.token);",
+					"      resolve(json.data.token);",
+					"    }",
+					"  })",
 					"}",
 					"",
 					"const main = async () => {",
@@ -990,7 +986,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "de417975-56b5-490f-aafa-80dbcfae0b8b",
+				"id": "9df51d24-701a-41e4-a0ea-dee29553868e",
 				"type": "text/javascript",
 				"exec": [
 					""
