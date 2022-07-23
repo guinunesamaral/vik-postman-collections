@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "036e47b6-fd8e-466e-a1e4-838797131bf2",
+				"id": "4086a22c-65fa-4df9-a170-86c9ab34ea8c",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -974,7 +974,8 @@
 					"",
 					"const main = async () => {",
 					"  const isValid = await validateToken()",
-					"    .then(res => res.isValid);",
+					"    .then(res => res.isValid)",
+					"    .catch(_ => await login());",
 					"  ",
 					"  if (!isValid) {",
 					"    await login();",
@@ -988,7 +989,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "54231798-4e18-480f-b463-e5625700e3ad",
+				"id": "02936828-1dbb-4e11-92f0-38451d3bc855",
 				"type": "text/javascript",
 				"exec": [
 					""
