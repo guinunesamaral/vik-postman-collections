@@ -618,7 +618,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/Departamento?ativo=true",
+							"raw": "{{base_url}}/api/Departamento?",
 							"host": [
 								"{{base_url}}"
 							],
@@ -628,8 +628,8 @@
 							],
 							"query": [
 								{
-									"key": "ativo",
-									"value": "true"
+									"key": "",
+									"value": null
 								}
 							]
 						}
