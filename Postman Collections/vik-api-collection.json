@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "4d83dc74-824e-46f1-8b1c-e53ab7899831",
+				"id": "c8dc3f21-6b94-415c-8e6d-3685b8f90ed6",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -967,7 +967,7 @@
 					"  });",
 					"}",
 					"",
-					"  const interval = setTimeout(() => {}, Number.MAX_SAFE_INTEGER)",
+					"const interval = setTimeout(() => {}, Number.MAX_SAFE_INTEGER)",
 					"const main = () => {",
 					"  validateToken()",
 					"    .then(res => !res.isValid ? login() : null)",
@@ -981,7 +981,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f51fbcc2-5b23-400b-b514-71c5a9cb8cbf",
+				"id": "15e106b1-a413-49a6-8238-e1d547c5e689",
 				"type": "text/javascript",
 				"exec": [
 					""
