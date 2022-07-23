@@ -920,10 +920,10 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "2c571fb4-7349-48ed-8fdc-234545eddcf6",
+				"id": "cdf17777-d23b-4c63-b71b-09df4edc5599",
 				"type": "text/javascript",
 				"exec": [
-					"const validateToken = (callback) => {",
+					"const validateToken = () => {",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/validate`,",
 					"    method: \"POST\",",
@@ -972,7 +972,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "c5dfd041-35a4-46d5-b06e-9f1ccb169264",
+				"id": "f17edaa1-af32-43a8-8b61-eeb32cc4998c",
 				"type": "text/javascript",
 				"exec": [
 					""
