@@ -902,7 +902,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Login/validate"
+						"url": "{{azure_url}}/api/Login/validate"
 					},
 					"response": []
 				}
