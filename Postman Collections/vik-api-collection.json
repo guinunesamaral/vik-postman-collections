@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "3c71195b-775e-415e-b1fb-31ba6996dcd3",
+				"id": "cfd1ab00-25e7-49c7-b5f2-10973953e64d",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -982,14 +982,14 @@
 					"  }",
 					"}",
 					"",
-					"await main();"
+					"main();"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "04fba8ef-7137-4e77-bd8d-752db74d2509",
+				"id": "65ae0e8f-e13c-4748-8ed8-a332e9d0fec0",
 				"type": "text/javascript",
 				"exec": [
 					""
