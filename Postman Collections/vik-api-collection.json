@@ -880,7 +880,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/login"
+						"url": "{{azure_url}}/api/login"
 					},
 					"response": []
 				},
