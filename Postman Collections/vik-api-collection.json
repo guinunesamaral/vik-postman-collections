@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "9b34fc74-d219-4fe5-b637-e32bf0749540",
+				"id": "28fb7b1a-a9cd-4ce9-9109-029b1e9f230d",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -971,14 +971,14 @@
 					"",
 					"validateToken()",
 					"  .then(res => !res.isValid ? login() : res)",
-					"  .then(() => clearInterval(interval));"
+					"  .then(() => clearTimeout(interval));"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "5305eec4-a5d3-40d1-bed1-caecd189c93d",
+				"id": "c5036070-dbe5-45e5-b3c5-f1b64e642e99",
 				"type": "text/javascript",
 				"exec": [
 					""
