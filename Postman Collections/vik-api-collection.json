@@ -82,6 +82,18 @@
 			"item": [
 				{
 					"name": "Users",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "0f781c5a-dc51-4a94-9576-3b6970023e6a",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "48bcc862-56de-4652-89de-c376d8eb8578",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
