@@ -932,7 +932,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e3c04819-2281-4f3a-b3d1-06e21a155541",
+				"id": "e4810d27-c2e7-4cf6-b723-7824177e8d86",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -990,12 +990,20 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "3ad97309-c73c-474f-b785-530d543933b9",
+				"id": "6f387e3f-d321-4383-9732-a2ba4798d62f",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"id": "f4c4f5ad-ca37-46a6-b768-ab9b73811893",
+			"key": "url",
+			"value": "",
+			"type": "string"
 		}
 	]
 }
