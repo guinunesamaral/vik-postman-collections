@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "18f80e11-b075-4c02-ae6c-19255360ff26",
+				"id": "5a570009-6039-4481-8b74-076ca3f69789",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -970,23 +970,21 @@
 					"  });",
 					"}",
 					"",
-					"const main = () => {",
+					"(() => {",
 					"  validateToken()",
 					"    .then(res => {",
 					"      if (!res.isValid) {",
 					"        login();",
 					"      }",
 					"    });",
-					"};",
-					"",
-					"main();"
+					"})();"
 				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
-				"id": "6d1adbb0-379c-4ff3-9dfd-e4d2d03e492f",
+				"id": "49454893-6d54-4a93-a424-7f5ebf936f23",
 				"type": "text/javascript",
 				"exec": [
 					""
