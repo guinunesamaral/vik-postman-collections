@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "793b8aa2-eb70-4360-9d54-0cd0234441ea",
+				"id": "25a1a48f-de8a-40aa-b467-8c9f9994f0ad",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -932,27 +932,19 @@
 					"    }",
 					"  };",
 					"",
-					"  let isTokenValid = true;",
-					"",
-					"  new Promise(",
+					"  return new Promise(",
 					"    (resolve, reject) => {",
 					"      pm.sendRequest(req, (err, res) => {",
 					"        const json = res.json();",
 					"",
-					"        if (err) {",
-					"          reject(err);",
-					"        } else if (json.errors) {",
-					"          reject(json.errors);",
-					"        } else if (json.data.status === \"Unauthorized\") {",
-					"          reject(json.data.status);",
+					"        if (err || json.errors || json.data.status === \"Unauthorized\") {",
+					"          reject({ isValid: false });",
 					"        } else {",
-					"          resolve(json.data.isValid);",
+					"          resolve(json.data);",
 					"        }",
 					"      })",
 					"    }",
-					"  ).then()",
-					"",
-					"  return isTokenValid;",
+					"  )",
 					"}",
 					"",
 					"const login = () => {",
@@ -992,7 +984,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "c793b464-7d23-4fc9-ba76-865b56799ba9",
+				"id": "516965a8-1826-4315-9e66-8a0d7738b0c3",
 				"type": "text/javascript",
 				"exec": [
 					""
