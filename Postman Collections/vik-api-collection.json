@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "bd8c815e-214a-4aba-b12b-1e3053cb196d",
+				"id": "114a16df-a67a-4763-870c-c3e6724f3397",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -932,7 +932,7 @@
 					"    }",
 					"  };",
 					"",
-					"  return new Promise((resolve, reject) => {",
+					"  return new Promise((resolve, reject) =>",
 					"    pm.sendRequest(req, (err, res) => {",
 					"      const json = res.json();",
 					"",
@@ -942,7 +942,7 @@
 					"        resolve(json.data);",
 					"      }",
 					"    })",
-					"  });",
+					"  );",
 					"}",
 					"",
 					"const login = () => {",
@@ -984,7 +984,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "95db72a9-04b0-417a-87f7-2a293ffdc04a",
+				"id": "26f50c81-1e41-48cf-8dd2-ee710f88603f",
 				"type": "text/javascript",
 				"exec": [
 					""
