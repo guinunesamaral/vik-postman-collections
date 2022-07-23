@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "be2eb063-d303-4d49-927a-42fe4be32c26",
+				"id": "e5712426-1687-4031-afbe-3c8ff5a86775",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -947,6 +947,7 @@
 					"}",
 					"",
 					"const login = () => {",
+					"  console.log(\"login\")",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/login/`,",
 					"    method: \"POST\",",
@@ -974,7 +975,7 @@
 					"const main = async () => {",
 					"  const isValid = await validateToken();",
 					"  console.log(isValid)",
-					"  ",
+					"",
 					"  if (!isValid) {",
 					"    login();",
 					"  }",
@@ -987,7 +988,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "bae4c6b2-9362-4523-bae0-bb83cbd5e4f4",
+				"id": "f910a8c6-81f6-4dbf-bdde-edb40443d395",
 				"type": "text/javascript",
 				"exec": [
 					""
