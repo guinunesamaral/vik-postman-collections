@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "b046a216-cdbe-4fa9-8f03-e206a3f8f18b",
+				"id": "bd8c815e-214a-4aba-b12b-1e3053cb196d",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -935,8 +935,6 @@
 					"  return new Promise((resolve, reject) => {",
 					"    pm.sendRequest(req, (err, res) => {",
 					"      const json = res.json();",
-					"",
-					"      console.log(err, json);",
 					"",
 					"      if (err || json.errors) {",
 					"        reject({ isValid: false });",
@@ -986,7 +984,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7daa5eae-5f5b-4d9e-9159-b5943868119d",
+				"id": "95db72a9-04b0-417a-87f7-2a293ffdc04a",
 				"type": "text/javascript",
 				"exec": [
 					""
