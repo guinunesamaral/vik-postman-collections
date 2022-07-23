@@ -920,10 +920,10 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "981d2f22-ad54-4475-abac-94ab8a6d3d00",
+				"id": "62003265-bb9c-49cf-9323-7e63f13be29a",
 				"type": "text/javascript",
 				"exec": [
-					"const validateToken = () => {",
+					"function validateToken() {",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/validate`,",
 					"    method: \"POST\",",
@@ -945,7 +945,7 @@
 					"  );",
 					"}",
 					"",
-					"const login = () => {",
+					"function login() {",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"azure_url\")}/api/login`,",
 					"    method: \"POST\",",
@@ -978,7 +978,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "6361d7fe-6ee9-4c04-9b94-5f5f08c03603",
+				"id": "9390f749-514a-4879-ab27-d047cb676719",
 				"type": "text/javascript",
 				"exec": [
 					""
