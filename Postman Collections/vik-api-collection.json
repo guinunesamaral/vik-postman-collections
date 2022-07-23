@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "6b487d96-334a-4375-b12e-7aefbb642302",
+				"id": "f971c567-36a0-4729-b37f-8be2679733d4",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -939,7 +939,6 @@
 					"      console.log(err, res);",
 					"",
 					"      if (err || res.code === 401) {",
-					"        console.log(\"inside\")",
 					"        reject({ isValid: false });",
 					"      } else {",
 					"        resolve(json.data);",
@@ -983,7 +982,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "433bbe36-e08c-4130-b16f-6ed95725fe46",
+				"id": "25c5bff2-5a72-4a88-b1d0-5c3fff492811",
 				"type": "text/javascript",
 				"exec": [
 					""
