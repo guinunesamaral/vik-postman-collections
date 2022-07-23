@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "c691abaa-9169-4234-8aac-5de9d5738017",
+				"id": "8ed91e05-49f8-47f4-8c74-915fa1b0c641",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -936,7 +936,7 @@
 					"    pm.sendRequest(req, (err, res) => {",
 					"      const json = res.json();",
 					"",
-					"      console.log(err, res);",
+					"      console.log(err, json);",
 					"",
 					"      if (err || res.code === 401) {",
 					"        reject({ isValid: false });",
@@ -985,7 +985,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0ed24deb-bd74-484f-976c-f13a6132a1d5",
+				"id": "0ead2074-c393-468d-aad3-cedb36cff98a",
 				"type": "text/javascript",
 				"exec": [
 					""
