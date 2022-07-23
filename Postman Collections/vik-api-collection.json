@@ -920,7 +920,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "9dbb06ae-d584-4b10-b357-2aa4df92ab29",
+				"id": "2a7cb4d6-ca1f-4319-8f84-b02817e60a33",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = async () => {",
@@ -932,7 +932,7 @@
 					"    }",
 					"  };",
 					"",
-					"  return new Promise((resolve, reject) =>",
+					"  return new Promise((resolve, _) =>",
 					"    pm.sendRequest(req, (err, res) => {",
 					"      const json = res.json();",
 					"",
@@ -988,7 +988,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "45e5e881-872f-4778-bb37-9934a7497fd1",
+				"id": "9296138c-729d-4ca2-bbfc-80dea7485df3",
 				"type": "text/javascript",
 				"exec": [
 					""
