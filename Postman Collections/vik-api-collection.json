@@ -546,9 +546,15 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{tokenJWT}}"
+							}
+						},
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Perfil/"
+						"url": "{{base_url}}/api/Perfil/1"
 					},
 					"response": []
 				}
