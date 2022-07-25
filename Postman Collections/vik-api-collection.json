@@ -953,7 +953,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "7f809683-ee43-4e32-a396-10c77108cc1e",
+				"id": "d2e5493f-994a-44eb-ae34-5d441324d592",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1000,7 +1000,7 @@
 					"  });",
 					"}",
 					"",
-					"const timeout = setTimeout(() => {}, 1000)",
+					"const timeout = setTimeout(() => {}, 10000)",
 					"",
 					"validateToken()",
 					"  .then(res => !res.isValid ? login() : res)",
@@ -1011,7 +1011,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "93617582-99df-4a80-8651-ff7b66439cdf",
+				"id": "b6c2ecef-2230-4e85-b510-9b21bdebbf73",
 				"type": "text/javascript",
 				"exec": [
 					""
