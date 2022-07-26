@@ -710,7 +710,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n   \"idDepartamento\": 4\r\n}",
+							"raw": "{\r\n   \"idDepartamento\": 12\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
