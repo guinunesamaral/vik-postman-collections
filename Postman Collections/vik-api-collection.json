@@ -258,7 +258,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Utilizador/15"
+						"url": "{{base_url}}/api/Utilizador/18"
 					},
 					"response": []
 				},
