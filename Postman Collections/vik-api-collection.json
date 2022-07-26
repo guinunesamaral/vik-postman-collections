@@ -575,14 +575,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 104,\r\n  \"nome\": \"basico\",\r\n  \"preco\": \"3.000\",\r\n  \"idSolucao\": 1\r\n}",
+							"raw": "{\r\n  \"id\": 108,\r\n  \"nome\": \"basico\",\r\n  \"preco\": \"3.000\",\r\n  \"idSolucao\": 3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "https://localhost:5000/api/Plano/"
+						"url": "{{base_url}}/api/PlanoSolucao/"
 					},
 					"response": []
 				},
