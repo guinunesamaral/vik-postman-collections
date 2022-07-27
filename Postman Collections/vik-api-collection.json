@@ -295,7 +295,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"id\": 65,\r\n  \"nome\": \"Paulo56\",\r\n  \"sobrenome\": \"VIK\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"teste7teste@teste.com\",\r\n  \"senha\": \"Senha987@3\",\r\n  \"isGestor\": false,\r\n  \"idGestor\": 29,\r\n  \"idUsuario\": 2,\r\n  \"idCargo\": 20,\r\n  \"idDepartamento\": 1,\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11900001111\",\r\n      \"ramal\": \"string\"\r\n    },\r\n    {\r\n      \"tipo\": 2,\r\n      \"numero\": \"11922223333\",\r\n      \"ramal\": \"string\"\r\n    },\r\n    {\r\n      \"tipo\": 3,\r\n      \"numero\": \"11944445555\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"8499797911\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"teste \"\r\n  }\r\n}",
+							"raw": "{\r\n  \"id\": 65,\r\n  \"nome\": \"Paulo56\",\r\n  \"sobrenome\": \"VIK\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"teste7teste@teste.com\",\r\n  \"senha\": \"Senha987@3\",\r\n  \"isGestor\": false,\r\n  \"idGestor\": 29,\r\n  \"idUsuario\": 2,\r\n  \"idCargo\": 20,\r\n  \"idDepartamento\": 1,\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11900001111\",\r\n      \"ramal\": \"celular\"\r\n    },\r\n    {\r\n      \"tipo\": 2,\r\n      \"numero\": \"11922223333\",\r\n      \"ramal\": \"fixo\"\r\n    },\r\n    {\r\n      \"tipo\": 3,\r\n      \"numero\": \"11944445555\",\r\n      \"ramal\": \"comercial\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"8499797911\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"teste \"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
