@@ -528,7 +528,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"idUtilizador\": 0,\r\n  \"idPerfil\": 0\r\n}",
+							"raw": "{\r\n  \"idPerfil\": 7\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
