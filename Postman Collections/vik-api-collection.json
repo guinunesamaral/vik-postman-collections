@@ -273,7 +273,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nome\": \"vik\",\r\n  \"sobrenome\": \"tech\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"fgthyulp09@tech.com\",\r\n  \"senha\": \"MyPass@321\",\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idDepartamento\": 1,\r\n  \"idCargo\": 20,\r\n  \"idFoto\": \"616b5853-a4d3-40aa-beb9-d55f3c9728d8.jpeg\",\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"84997979\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"string\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"nome\": \"vik\",\r\n  \"sobrenome\": \"tech\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"fgthyulp09@tech.com\",\r\n  \"senha\": \"MyPass@321\",\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idDepartamento\": 1,\r\n  \"idCargo\": 20,\r\n  \"idFoto\": \"616b5853-a4d3-40aa-beb9-d55f3c9728d8.jpeg\",\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    },\r\n    {\r\n      \"tipo\": 2,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"84997979\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"string\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
