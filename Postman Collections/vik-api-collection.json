@@ -450,7 +450,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}//api/Cargo/disable"
+						"url": "{{base_url}}/api/Cargo/disable"
 					},
 					"response": []
 				}
