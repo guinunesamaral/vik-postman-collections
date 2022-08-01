@@ -953,7 +953,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "bc73bff7-7b1b-40ce-a27a-d7447803499e",
+				"id": "e6761e81-343d-4cd8-b089-b68aae70f09f",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -985,7 +985,7 @@
 					"  }",
 					"",
 					"  const userLocalhost = {",
-					"    \"email\": \"gn@gmail.com\",",
+					"    \"email\": \"gn@email.com\",",
 					"    \"senha\": \"MyPass@13\"",
 					"  }",
 					"",
@@ -1018,7 +1018,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "26b06dd1-e95b-407b-be0e-b66a59a95282",
+				"id": "41b4024a-215c-4f3b-85ea-4a2df49d25b1",
 				"type": "text/javascript",
 				"exec": [
 					""
