@@ -953,7 +953,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1e2253dc-02ea-47e6-b51b-d0da08a10435",
+				"id": "a633566c-663a-46a8-b6af-945844b6f141",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -979,16 +979,23 @@
 					"}",
 					"",
 					"const login = () => {",
+					"  const userAzure = {",
+					"    \"email\": \"vik@gmail.com\",",
+					"    \"senha\": \"MyPass@13\"",
+					"  }",
+					"",
+					"  const userLocalhost = {",
+					"    \"email\": \"gn@gmail.com\",",
+					"    \"senha\": \"MyPass@13\"",
+					"  }",
+					"",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"base_url\")}/api/login`,",
 					"    method: \"POST\",",
 					"    header: {",
 					"      \"Content-Type\": \"application/json\"",
 					"    },",
-					"    body: JSON.stringify({",
-					"      \"email\": \"vik@gmail.com\",",
-					"      \"senha\": \"MyPass@13\"",
-					"    })",
+					"    body: JSON.stringify(userAzure)",
 					"  };",
 					"",
 					"  pm.sendRequest(req, (err, res) => {",
@@ -1011,7 +1018,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e6935e9f-ed6b-4b84-a1d0-1bc82a7a5dfb",
+				"id": "2fc4880c-9e4a-4305-9e0c-5c09438cd5c7",
 				"type": "text/javascript",
 				"exec": [
 					""
