@@ -126,7 +126,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{azure_url}}/api/User/70"
+						"url": "{{base_url}}/api/User/10024"
 					},
 					"response": []
 				},
