@@ -233,7 +233,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{azure_url}}/api/Utilizador/"
+						"url": "{{base_url}}/api/Utilizador/"
 					},
 					"response": []
 				},
