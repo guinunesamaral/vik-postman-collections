@@ -148,7 +148,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/User"
+						"url": "{{azure_url}}/api/User"
 					},
 					"response": []
 				},
