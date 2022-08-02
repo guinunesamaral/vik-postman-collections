@@ -357,9 +357,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/Cargo?listInactiveCargos=true",
+							"raw": "{{azure_url}}/api/Cargo?listInactiveCargos=true",
 							"host": [
-								"{{base_url}}"
+								"{{azure_url}}"
 							],
 							"path": [
 								"api",
