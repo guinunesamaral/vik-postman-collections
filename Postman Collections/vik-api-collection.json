@@ -170,7 +170,7 @@
 								}
 							}
 						},
-						"url": "{{azure_url}}/api/User"
+						"url": "{{base_url}}/api/User"
 					},
 					"response": []
 				},
