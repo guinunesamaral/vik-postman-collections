@@ -953,12 +953,12 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "821b1b1c-f886-4706-8fd2-c8550fea95f7",
+				"id": "02200c2e-d5b5-45eb-8499-87ec72e4dbea",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
 					"  const req = {",
-					"    url: `${pm.environment.get(\"base_url\")}/api/Login/validate`,",
+					"    url: `${pm.environment.get(\"azure_url\")}/api/Login/validate`,",
 					"    method: \"POST\",",
 					"    header: {",
 					"      \"Authorization\": `Bearer ${pm.environment.get(\"tokenJWT\")}`",
@@ -1018,7 +1018,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "be6b6a15-aef7-49e7-adcc-687d8a1fdba9",
+				"id": "7747f425-2916-47f1-a4fb-9f7784c31518",
 				"type": "text/javascript",
 				"exec": [
 					""
