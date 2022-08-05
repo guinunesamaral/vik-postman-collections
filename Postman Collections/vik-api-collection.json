@@ -357,7 +357,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/Cargo?ativo=false",
+							"raw": "{{base_url}}/api/Cargo?",
 							"host": [
 								"{{base_url}}"
 							],
@@ -367,8 +367,8 @@
 							],
 							"query": [
 								{
-									"key": "ativo",
-									"value": "false"
+									"key": "",
+									"value": null
 								}
 							]
 						}
