@@ -736,22 +736,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{base_url}}/api/Solucao?idUsuario=2",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"api",
-								"Solucao"
-							],
-							"query": [
-								{
-									"key": "idUsuario",
-									"value": "2"
-								}
-							]
-						}
+						"url": "{{base_url}}/api/Solucao"
 					},
 					"response": []
 				}
