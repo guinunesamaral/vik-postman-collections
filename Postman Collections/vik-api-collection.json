@@ -737,14 +737,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{azure_url}}/api/Solucao/2?userIsAvailable=true",
+							"raw": "{{azure_url}}/api/Solucao/70?userIsAvailable=true",
 							"host": [
 								"{{azure_url}}"
 							],
 							"path": [
 								"api",
 								"Solucao",
-								"2"
+								"70"
 							],
 							"query": [
 								{
