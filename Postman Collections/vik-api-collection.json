@@ -736,7 +736,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Solucao/2"
+						"url": "{{base_url}}/api/Solucao"
 					},
 					"response": []
 				}
