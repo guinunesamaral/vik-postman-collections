@@ -356,22 +356,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{base_url}}/api/Cargo?",
-							"host": [
-								"{{base_url}}"
-							],
-							"path": [
-								"api",
-								"Cargo"
-							],
-							"query": [
-								{
-									"key": "",
-									"value": null
-								}
-							]
-						}
+						"url": "{{base_url}}/api/Cargo"
 					},
 					"response": []
 				},
