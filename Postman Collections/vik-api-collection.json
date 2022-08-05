@@ -736,7 +736,26 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Solucao"
+						"url": {
+							"raw": "{{base_url}}/api/Solucao?idUsuario=2&solucoesContratadas=true",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"Solucao"
+							],
+							"query": [
+								{
+									"key": "idUsuario",
+									"value": "2"
+								},
+								{
+									"key": "solucoesContratadas",
+									"value": "true"
+								}
+							]
+						}
 					},
 					"response": []
 				}
