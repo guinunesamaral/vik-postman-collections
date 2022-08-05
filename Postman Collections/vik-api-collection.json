@@ -736,7 +736,23 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{azure_url}}/api/Solucao/70"
+						"url": {
+							"raw": "{{base_url}}/api/Solucao/2?solucoesContratadas=true",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"Solucao",
+								"2"
+							],
+							"query": [
+								{
+									"key": "solucoesContratadas",
+									"value": "true"
+								}
+							]
+						}
 					},
 					"response": []
 				}
