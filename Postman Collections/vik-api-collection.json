@@ -737,9 +737,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/Solucao/2?userIsAvailable=true",
+							"raw": "{{azure_url}}/api/Solucao/2?userIsAvailable=false",
 							"host": [
-								"{{base_url}}"
+								"{{azure_url}}"
 							],
 							"path": [
 								"api",
@@ -749,7 +749,7 @@
 							"query": [
 								{
 									"key": "userIsAvailable",
-									"value": "true"
+									"value": "false"
 								}
 							]
 						}
