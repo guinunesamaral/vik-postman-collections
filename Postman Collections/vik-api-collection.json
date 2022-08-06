@@ -722,7 +722,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/Solucao?idUsuario=2&solucoesContratadas=true",
+							"raw": "{{base_url}}/api/Solucao?idUsuario=70&solucoesContratadas=true",
 							"host": [
 								"{{base_url}}"
 							],
@@ -733,7 +733,7 @@
 							"query": [
 								{
 									"key": "idUsuario",
-									"value": "2"
+									"value": "70"
 								},
 								{
 									"key": "solucoesContratadas",
