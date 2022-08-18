@@ -952,11 +952,6 @@
 			"id": "ba464873-ed29-4c0e-9171-cfa68dd351cf"
 		},
 		{
-			"name": "New Folder Copy",
-			"item": [],
-			"id": "350add3d-d030-450c-888c-8a20872b7fc7"
-		},
-		{
 			"name": "New Request",
 			"id": "7aaeb40e-55ca-42a9-b07a-5906e0c64364",
 			"protocolProfileBehavior": {
