@@ -721,12 +721,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/Solucao?idUsuario=70&solucoesContratadas=true",
+							"raw": "{{vik_way_azure}}/Solucao?idUsuario=70&solucoesContratadas=true",
 							"host": [
-								"{{base_url}}"
+								"{{vik_way_azure}}"
 							],
 							"path": [
-								"api",
 								"Solucao"
 							],
 							"query": [
@@ -1049,13 +1048,13 @@
 	],
 	"variable": [
 		{
-			"id": "78a0deb1-04b7-4915-8e64-1f9ff08b9cb5",
+			"id": "e1456ea0-1366-4b1b-a45a-e454c6bdf7c1",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f5fcc6c7-4593-424f-a0ae-75397ea0b056",
+			"id": "614d6b23-c7c6-4132-bc63-19b7749417e8",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
