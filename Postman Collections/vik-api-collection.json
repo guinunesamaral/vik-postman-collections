@@ -979,7 +979,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "184d82de-2f59-4311-8fd5-2249735b0a4e",
+				"id": "a7b12cde-cdb7-49c4-a9a8-89d482b51924",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1044,7 +1044,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4b2fffc8-313b-4916-a177-e923df99abb7",
+				"id": "0fa5ff86-eb3a-49b7-9a72-ef9b8334e299",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1054,14 +1054,14 @@
 	],
 	"variable": [
 		{
-			"id": "16805fa2-35cd-4b9b-8fa3-d1c75dba2f36",
-			"key": "base64ImageDataCreate",
+			"id": "12c35c87-808c-4f3e-a154-69161aaeaf33",
+			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2806a991-84ee-4573-b176-9b929f45cc34",
-			"key": "base64ImageDataUpdate",
+			"id": "5dc5df40-955f-4af5-9fbe-f9c7eeb86eb8",
+			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
 		}
