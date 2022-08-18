@@ -966,14 +966,14 @@
 	"auth": {
 		"type": "bearer",
 		"bearer": {
-			"token": "{{tokenJWT}}"
+			"token": "{{token_jwt}}"
 		}
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1eb9257b-fa8f-4947-a522-d189c4f035aa",
+				"id": "9d579d8b-fb16-4eda-a7e9-08c277d1f5ee",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1038,7 +1038,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "cfd5ee61-fbed-43e3-af85-86a773853daf",
+				"id": "e61d647b-cba3-4737-9b9e-56794f1fd07f",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1048,13 +1048,13 @@
 	],
 	"variable": [
 		{
-			"id": "a6709d07-0254-4173-92d7-982156432078",
+			"id": "f2512930-1703-4e32-8f3d-f9c04f400ea1",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2b8c9e38-93a8-4378-b9c2-78722d8291f6",
+			"id": "d20c1fc5-5560-4235-a638-2d478a7e3844",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
