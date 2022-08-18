@@ -979,7 +979,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a2f0d49a-90f1-4de3-adf0-d52a8eae5c1f",
+				"id": "e3055db6-8671-4274-b4db-b0f47465fd42",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1016,7 +1016,7 @@
 					"  }",
 					"",
 					"  const req = {",
-					"    url: `${pm.environment.get(\"azure_url\")}/api/login`,",
+					"    url: `${pm.environment.get(\"vik_way_azure\")}/api/login`,",
 					"    method: \"POST\",",
 					"    header: {",
 					"      \"Content-Type\": \"application/json\"",
@@ -1044,7 +1044,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "1fe675d0-808e-4176-bba3-01f9187e112f",
+				"id": "a779271e-2d8f-4587-8f21-c800952433c2",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1054,13 +1054,13 @@
 	],
 	"variable": [
 		{
-			"id": "66dedf16-7de4-4f8b-b32a-515d0fa92056",
+			"id": "b618caca-2fad-4bcb-9667-9af8f06c9958",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "cc9e3b81-4de7-45e0-aa09-244dda82cc54",
+			"id": "542c545e-f0e2-4644-80d7-32f2dedf29dd",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
