@@ -539,7 +539,7 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Perfil/1"
+						"url": "{{vik_way_azure}}/Perfil/1"
 					},
 					"response": []
 				}
@@ -1050,13 +1050,13 @@
 	],
 	"variable": [
 		{
-			"id": "44343d22-20ae-4a36-88e9-927202a6fd14",
+			"id": "32566a1a-ea52-47f4-8df2-5e8186ef01b8",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d974a71a-a8a7-45cb-8a00-0f58e3409038",
+			"id": "78d24342-17db-4e68-a779-d067ced422c4",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
