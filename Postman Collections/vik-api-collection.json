@@ -192,7 +192,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/User/disable"
+						"url": "{{vik_way_azure}}/User/disable"
 					},
 					"response": []
 				},
@@ -1050,13 +1050,13 @@
 	],
 	"variable": [
 		{
-			"id": "4415b69b-1522-4ef9-8b69-7215a4d96006",
+			"id": "dfcbf8d2-ec3c-48ec-91b4-560946b41e6b",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "22b1e27e-3d5c-43e8-b679-7c9749f6be94",
+			"id": "3cf2eec2-4f21-4098-866a-4fd27c2869f7",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
