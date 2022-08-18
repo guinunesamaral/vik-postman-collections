@@ -280,7 +280,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Utilizador"
+						"url": "{{vik_way_azure}}/Utilizador"
 					},
 					"response": []
 				},
@@ -1050,13 +1050,13 @@
 	],
 	"variable": [
 		{
-			"id": "c4c4e2f5-66ec-4112-872e-e449e414b3b8",
+			"id": "06f7c2a1-8c92-4522-9401-55bd5e947203",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2750d40f-ca65-413c-b6b9-e77e7f6a4a7c",
+			"id": "3edd2537-2d10-4e64-bddb-ab0a52d8c872",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
