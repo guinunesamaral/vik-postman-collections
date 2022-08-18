@@ -609,12 +609,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{base_url}}/api/Departamento?ativo=false",
+							"raw": "{{vik_way_azure}}/Departamento?ativo=false",
 							"host": [
-								"{{base_url}}"
+								"{{vik_way_azure}}"
 							],
 							"path": [
-								"api",
 								"Departamento"
 							],
 							"query": [
@@ -1050,13 +1049,13 @@
 	],
 	"variable": [
 		{
-			"id": "c441b4a5-1f08-4bdf-b2dd-a09c21bef33e",
+			"id": "51d509ae-155c-4278-a64c-a0d57945f543",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ddee4541-bf16-4397-948e-3e85f6f12a7f",
+			"id": "e9ed2f1f-01ac-4bcc-97a3-f3ad82c542d2",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
