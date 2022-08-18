@@ -567,7 +567,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/PlanoSolucao/"
+						"url": "{{vik_way_azure}}/PlanoSolucao/"
 					},
 					"response": []
 				},
@@ -1050,13 +1050,13 @@
 	],
 	"variable": [
 		{
-			"id": "32566a1a-ea52-47f4-8df2-5e8186ef01b8",
+			"id": "8f392a71-2893-4fcc-9dad-c56e881f6ee1",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "78d24342-17db-4e68-a779-d067ced422c4",
+			"id": "65ef792b-7735-4e3c-b442-4d53146e8f60",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
