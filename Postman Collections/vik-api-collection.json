@@ -337,7 +337,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Utilizador/associacoes/15"
+						"url": "{{vik_way_azure}}/Utilizador/associacoes/15"
 					},
 					"response": []
 				}
@@ -1050,13 +1050,13 @@
 	],
 	"variable": [
 		{
-			"id": "ae8fb312-6a15-40e8-bf83-866224f4c5a7",
+			"id": "2724f5a2-c0ad-4d63-9af0-b6792d902e92",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d182cdc2-f36c-47a5-80d5-44099001db89",
+			"id": "b6525e22-56f4-4419-aecf-32faa3bdbcbc",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
