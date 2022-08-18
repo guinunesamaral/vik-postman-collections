@@ -679,7 +679,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Departamento/"
+						"url": "{{vik_way_azure}}/Departamento/"
 					},
 					"response": []
 				},
@@ -1049,13 +1049,13 @@
 	],
 	"variable": [
 		{
-			"id": "aeef9101-960e-487d-9fb1-5c75455e7c2e",
+			"id": "31c5c4ed-b4f6-40cc-b924-69a2a464ad30",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "a6a0bf95-acf2-456c-9cc3-a87a5611e82b",
+			"id": "db9840f3-dd17-47c7-a32b-08380ab1cd92",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
