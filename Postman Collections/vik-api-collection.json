@@ -956,7 +956,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "{{tokenJWT}}"
+								"token": "{{token_jwt}}"
 							}
 						},
 						"method": "GET",
@@ -1054,13 +1054,13 @@
 	],
 	"variable": [
 		{
-			"id": "221600c3-e629-41b0-890c-dd07376592f6",
+			"id": "dbdc7139-c925-465e-a928-8921ae095dcf",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "74bdde5e-0fea-46f9-bbde-a4259e7cbbc5",
+			"id": "dd12d559-c0f5-493a-8c9d-a914e673b82a",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
