@@ -26,7 +26,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Documento/"
+						"url": "{{vik_way_azure}}/api/Documento/"
 					},
 					"response": []
 				},
@@ -1050,13 +1050,13 @@
 	],
 	"variable": [
 		{
-			"id": "275cf2f8-e0bb-4338-8c1f-68904267f51a",
+			"id": "7b405afa-1df2-47f3-988a-cf7edc4e54c8",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "865b68f1-4068-4de7-b26a-8784ba12e173",
+			"id": "af57d598-ead9-4f3e-827a-7d99450c4dbe",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
