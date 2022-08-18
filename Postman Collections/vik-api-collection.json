@@ -975,7 +975,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "02200c2e-d5b5-45eb-8499-87ec72e4dbea",
+				"id": "1eb9257b-fa8f-4947-a522-d189c4f035aa",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1040,12 +1040,26 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "7747f425-2916-47f1-a4fb-9f7784c31518",
+				"id": "cfd5ee61-fbed-43e3-af85-86a773853daf",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"id": "6deeeead-44ca-41ea-967d-0e76ae1cfff9",
+			"key": "base64ImageDataCreate",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"id": "021c8be8-64d4-4c95-8927-ad9c22a863ed",
+			"key": "base64ImageDataUpdate",
+			"value": "",
+			"type": "string"
 		}
 	]
 }
