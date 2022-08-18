@@ -589,7 +589,7 @@
 								}
 							}
 						},
-						"url": "{{base_url}}/api/Plano/"
+						"url": "{{vik_way_azure}}/Plano/"
 					},
 					"response": []
 				}
@@ -1050,13 +1050,13 @@
 	],
 	"variable": [
 		{
-			"id": "8f392a71-2893-4fcc-9dad-c56e881f6ee1",
+			"id": "c441b4a5-1f08-4bdf-b2dd-a09c21bef33e",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "65ef792b-7735-4e3c-b442-4d53146e8f60",
+			"id": "ddee4541-bf16-4397-948e-3e85f6f12a7f",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
