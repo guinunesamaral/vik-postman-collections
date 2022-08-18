@@ -948,20 +948,21 @@
 		},
 		{
 			"name": "Funcionalidade",
-			"item": [],
+			"item": [
+				{
+					"name": "MenuFuncionalidadePessoa",
+					"id": "7aaeb40e-55ca-42a9-b07a-5906e0c64364",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "ba464873-ed29-4c0e-9171-cfa68dd351cf"
-		},
-		{
-			"name": "New Request",
-			"id": "7aaeb40e-55ca-42a9-b07a-5906e0c64364",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
 		}
 	],
 	"auth": {
