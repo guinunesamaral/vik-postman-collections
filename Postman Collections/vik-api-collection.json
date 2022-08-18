@@ -886,7 +886,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{base_url}}/api/Reasons"
+						"url": "{{vik_way_azure}}/Reasons"
 					},
 					"response": []
 				}
@@ -1047,13 +1047,13 @@
 	],
 	"variable": [
 		{
-			"id": "bb245cf4-8cba-4b27-a278-bdf8d20c78b6",
+			"id": "9fd79b89-15fe-404e-a2df-10f11993d7c7",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "4ff0dc83-ab82-42f0-8e06-ee267a07c436",
+			"id": "c830cb5a-bfb6-4934-9170-8cc11bf0501f",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
