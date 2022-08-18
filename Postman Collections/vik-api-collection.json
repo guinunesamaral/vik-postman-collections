@@ -973,7 +973,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "9d579d8b-fb16-4eda-a7e9-08c277d1f5ee",
+				"id": "a2f0d49a-90f1-4de3-adf0-d52a8eae5c1f",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1022,7 +1022,7 @@
 					"    const json = res.json();",
 					"",
 					"    if (!err || !json.errors) {",
-					"      pm.environment.set(\"tokenJWT\", json.data.token);",
+					"      pm.environment.set(\"token_jwt\", json.data.token);",
 					"    }",
 					"  });",
 					"}",
@@ -1038,7 +1038,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e61d647b-cba3-4737-9b9e-56794f1fd07f",
+				"id": "1fe675d0-808e-4176-bba3-01f9187e112f",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1048,13 +1048,13 @@
 	],
 	"variable": [
 		{
-			"id": "f2512930-1703-4e32-8f3d-f9c04f400ea1",
+			"id": "772c1f5f-13ff-4118-b780-bf55b70e6945",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d20c1fc5-5560-4235-a638-2d478a7e3844",
+			"id": "a063f0f5-6603-43b2-834b-dab946960ed3",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
