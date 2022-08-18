@@ -757,7 +757,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{vik_way_azure}}/api/user/{id}/Solucao"
+						"url": "{{vik_way_azure}}/user/{id}/Solucao"
 					},
 					"response": []
 				},
@@ -1048,13 +1048,13 @@
 	],
 	"variable": [
 		{
-			"id": "6b8b1e42-bf3b-4e91-925c-a38fb7bd0176",
+			"id": "525216bf-1116-42b1-855f-ca30b68d39ff",
 			"key": "base64ImageDataCreate",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "494f3be7-0d17-403b-8c9e-5a005c5b1a02",
+			"id": "8a3481ed-cc15-40d7-ba67-470ead60dbaa",
 			"key": "base64ImageDataUpdate",
 			"value": "",
 			"type": "string"
