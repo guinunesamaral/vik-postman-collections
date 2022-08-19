@@ -973,7 +973,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "a7b12cde-cdb7-49c4-a9a8-89d482b51924",
+				"id": "4a463036-3b65-43cc-b1a1-4b57f54732da",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1010,7 +1010,7 @@
 					"  }",
 					"",
 					"  const req = {",
-					"    url: `${pm.environment.get(\"vik_way_azure\")}/login`,",
+					"    url: `${pm.environment.get(\"vik_way_azure\")}/Login`,",
 					"    method: \"POST\",",
 					"    header: {",
 					"      \"Content-Type\": \"application/json\"",
@@ -1038,7 +1038,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0fa5ff86-eb3a-49b7-9a72-ef9b8334e299",
+				"id": "d3107eea-6871-4088-8467-43327a93dd5d",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1048,13 +1048,13 @@
 	],
 	"variable": [
 		{
-			"id": "ba5259af-4110-46df-9a22-4fbfe2b823dd",
+			"id": "3d1f2790-795d-4cb2-b9b6-86b84f5d5974",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "ae5fd8af-2d16-49f4-94b0-392fd43629c9",
+			"id": "0c4f2d23-7067-4aca-8127-0a027e98cb8e",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
