@@ -955,7 +955,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{vik_way_localhost}}/Funcionalidade/Menu"
+						"url": "{{vik_way_azure}}/Funcionalidade/Menu"
 					},
 					"response": []
 				}
@@ -1048,13 +1048,13 @@
 	],
 	"variable": [
 		{
-			"id": "22501dc1-32b0-4de7-aa44-0cd86782bab5",
+			"id": "a79be2d2-d022-455f-badc-f4dd752865e6",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c8eb31ed-3cdf-4605-b3d4-fbd806081893",
+			"id": "f4f5346c-3132-4f5c-aa8e-30a4b33a7673",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
