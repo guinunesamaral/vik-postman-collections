@@ -955,7 +955,31 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{vik_way_azure}}/Funcionalidade/Menu"
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{vik_way_localhost}}/Funcionalidade/Menu?idSolucao=1000",
+							"host": [
+								"{{vik_way_localhost}}"
+							],
+							"path": [
+								"Funcionalidade",
+								"Menu"
+							],
+							"query": [
+								{
+									"key": "idSolucao",
+									"value": "1000"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -1048,13 +1072,13 @@
 	],
 	"variable": [
 		{
-			"id": "a79be2d2-d022-455f-badc-f4dd752865e6",
+			"id": "06035402-d3a1-41a7-b98a-24390da8724e",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f4f5346c-3132-4f5c-aa8e-30a4b33a7673",
+			"id": "2e090c99-14f1-40d4-81ae-ad5c5277ebac",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
