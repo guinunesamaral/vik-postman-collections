@@ -965,9 +965,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{vik_way_localhost}}/Funcionalidade/Menu?idSolucao=1000",
+							"raw": "{{vik_way_azure}}/Funcionalidade/Menu?idSolucao=1000",
 							"host": [
-								"{{vik_way_localhost}}"
+								"{{vik_way_azure}}"
 							],
 							"path": [
 								"Funcionalidade",
@@ -1072,13 +1072,13 @@
 	],
 	"variable": [
 		{
-			"id": "06035402-d3a1-41a7-b98a-24390da8724e",
+			"id": "380d86be-b7a3-4c97-9e82-8157d3080c94",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2e090c99-14f1-40d4-81ae-ad5c5277ebac",
+			"id": "236a0ac2-5ab6-409c-8384-bb24bd3f7f14",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
