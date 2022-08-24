@@ -990,7 +990,7 @@
 			"name": "Menu",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Get Menu",
 					"id": "5be31fb1-a2b8-411e-ba6d-f475b40685d0",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -1090,13 +1090,13 @@
 	],
 	"variable": [
 		{
-			"id": "df14d2c9-87f8-4973-ab2c-cda25e146067",
+			"id": "86db9cbf-5edc-4aeb-974a-ffcabc5df469",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "160866b8-932d-47eb-b373-abaeb4cc51a1",
+			"id": "596efc09-33a6-41dd-b5cb-babbb2757ab7",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
