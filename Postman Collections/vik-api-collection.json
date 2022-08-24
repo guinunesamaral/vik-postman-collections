@@ -987,7 +987,7 @@
 			"id": "ba464873-ed29-4c0e-9171-cfa68dd351cf"
 		},
 		{
-			"name": "New Folder",
+			"name": "Menu",
 			"item": [],
 			"id": "e18c3748-5e79-461e-a4ec-db35654c700e"
 		}
@@ -1077,13 +1077,13 @@
 	],
 	"variable": [
 		{
-			"id": "476cb04c-caf7-4c7a-b949-9361ecd788ad",
+			"id": "0b47f7aa-bdee-4efd-ae45-5932c2c795b9",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "37de2ac0-b6f4-4575-8d38-3a68ea975a5d",
+			"id": "3e351a22-795e-46c7-83ef-06ff933848d9",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
