@@ -996,8 +996,30 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{token_jwt}}"
+							}
+						},
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{vik_way_azure}}/MenuAplicacoes/FuncionalidadeByIdPessoa?idSolucao=1000",
+							"host": [
+								"{{vik_way_azure}}"
+							],
+							"path": [
+								"MenuAplicacoes",
+								"FuncionalidadeByIdPessoa"
+							],
+							"query": [
+								{
+									"key": "idSolucao",
+									"value": "1000"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -1090,13 +1112,13 @@
 	],
 	"variable": [
 		{
-			"id": "86db9cbf-5edc-4aeb-974a-ffcabc5df469",
+			"id": "d3fe6596-e12d-4c78-a080-903a6f6b0491",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "596efc09-33a6-41dd-b5cb-babbb2757ab7",
+			"id": "35ac10ce-cf9c-4a1e-9d5d-07d024acc38d",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
