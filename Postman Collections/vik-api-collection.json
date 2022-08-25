@@ -269,18 +269,24 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{token_jwt}}"
+							}
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"nome\": \"vik\",\r\n  \"sobrenome\": \"tech\",\r\n  \"cpf\": \"67300940013\",\r\n  \"login\": \"fgthyulp09@tech.com\",\r\n  \"senha\": \"MyPass@321\",\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idDepartamento\": 1,\r\n  \"idCargo\": 6,\r\n  \"idFoto\": \"616b5853-a4d3-40aa-beb9-d55f3c9728d8.jpeg\",\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 1,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    },\r\n    {\r\n      \"tipo\": 2,\r\n      \"numero\": \"11999999999\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"84997979\",\r\n    \"whatsApp\": \"111545464\",\r\n    \"outro\": \"string\"\r\n  }\r\n}",
+							"raw": "{\r\n  \"nome\": \"lucas\",\r\n  \"sobrenome\": \"serejo\",\r\n  \"cpf\": \"80820231045\",\r\n  \"login\": \"lucas.serejo@vik.com\",\r\n  \"senha\": \"Senha@321\",\r\n  \"isGestor\": true,\r\n  \"idUsuario\": 2,\r\n  \"idDepartamento\": 1,\r\n  \"idCargo\": 1,\r\n  \"telefones\": [\r\n    {\r\n      \"tipo\": 2,\r\n      \"numero\": \"11987654321\",\r\n      \"ramal\": \"string\"\r\n    }\r\n  ],\r\n  \"redesSociais\": {\r\n    \"telegram\": \"teste\",\r\n    \"whatsApp\": \"11987654321\",\r\n    \"outro\": \"string\"\r\n  }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Utilizador"
+						"url": "{{vik_way_localhost}}/Utilizador"
 					},
 					"response": []
 				},
@@ -1112,13 +1118,13 @@
 	],
 	"variable": [
 		{
-			"id": "3b5972f8-1dcf-4b04-bc62-86be30392d64",
+			"id": "65f64a0b-49ca-466c-aae5-03e751f27e31",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "3861e64e-f10e-46ec-a2f3-7cb49209760e",
+			"id": "f7d17c8c-3cf9-414c-b190-32d2a7d3c3c7",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
