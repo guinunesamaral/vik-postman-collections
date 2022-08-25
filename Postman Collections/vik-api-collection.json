@@ -959,6 +959,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{token_jwt}}"
+							}
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -971,13 +977,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{vik_way_azure}}/Funcionalidade/Menu?idSolucao=1000",
+							"raw": "{{vik_way_localhost}}/Funcionalidade/FuncionalidadeByIdPessoa?idSolucao=1000",
 							"host": [
-								"{{vik_way_azure}}"
+								"{{vik_way_localhost}}"
 							],
 							"path": [
 								"Funcionalidade",
-								"Menu"
+								"FuncionalidadeByIdPessoa"
 							],
 							"query": [
 								{
@@ -1118,13 +1124,13 @@
 	],
 	"variable": [
 		{
-			"id": "65f64a0b-49ca-466c-aae5-03e751f27e31",
+			"id": "3405cd6f-cc99-4b74-a454-3db97615bba5",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f7d17c8c-3cf9-414c-b190-32d2a7d3c3c7",
+			"id": "f42fce9c-8a9e-4ca9-a5d2-cbf5b50b8fc7",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
