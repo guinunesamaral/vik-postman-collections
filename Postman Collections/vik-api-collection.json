@@ -1017,13 +1017,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vik_way_localhost}}/MenuAplicacoes/FuncionalidadeByIdPessoa?idSolucao=1000",
+							"raw": "{{vik_way_localhost}}/MenuAplicacoes/MenuItem?idSolucao=1000",
 							"host": [
 								"{{vik_way_localhost}}"
 							],
 							"path": [
 								"MenuAplicacoes",
-								"FuncionalidadeByIdPessoa"
+								"MenuItem"
 							],
 							"query": [
 								{
@@ -1124,13 +1124,13 @@
 	],
 	"variable": [
 		{
-			"id": "3405cd6f-cc99-4b74-a454-3db97615bba5",
+			"id": "516d3ae1-e268-4d36-bacf-2559fefa311d",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f42fce9c-8a9e-4ca9-a5d2-cbf5b50b8fc7",
+			"id": "3b9066d2-e743-4175-a91e-caca2e1eb2e2",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
