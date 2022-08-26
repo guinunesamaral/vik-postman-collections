@@ -1016,6 +1016,15 @@
 						},
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"idSolucao\": 1000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": "{{vik_way_azure}}/FuncionalidadeByIdPessoa"
 					},
 					"response": []
@@ -1109,13 +1118,13 @@
 	],
 	"variable": [
 		{
-			"id": "393393b3-f761-4ce7-ba02-d9fa7da5279a",
+			"id": "8573fe60-8330-4f59-83ec-83bb99498e6e",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "307608e8-44c6-48c3-9a2a-e584ef8699f9",
+			"id": "a7a9efe8-c03a-4095-a7f3-1c28129a1c4c",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
