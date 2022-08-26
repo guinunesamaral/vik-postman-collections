@@ -1058,7 +1058,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "5b48d3e6-45d8-4aa7-84ca-92d9e9582181",
+				"id": "d17635fa-0825-40c5-959f-774bef34e5d9",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1100,7 +1100,7 @@
 					"    header: {",
 					"      \"Content-Type\": \"application/json\"",
 					"    },",
-					"    body: JSON.stringify(user)",
+					"    body: JSON.stringify(cliente)",
 					"  };",
 					"",
 					"  pm.sendRequest(req, (err, res) => {",
@@ -1123,7 +1123,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "59dfb1c7-65f3-4743-9149-8bc7e49d1f99",
+				"id": "47cbdcfd-9fb9-461d-9988-7a65fb39fad0",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1133,13 +1133,13 @@
 	],
 	"variable": [
 		{
-			"id": "fac61c5f-307b-4661-8d8d-73ba99c7e4a4",
+			"id": "0d0f4f14-abf9-4316-83a5-0a9d15ba52fe",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b19cbb47-c187-4110-8b23-beae7aebce1a",
+			"id": "7003cbfc-f138-4d4a-bd38-26ed435e998c",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
