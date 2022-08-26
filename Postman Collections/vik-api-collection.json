@@ -1025,7 +1025,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Funcionalidade/FuncionalidadeByIdPessoa/"
+						"url": "{{vik_way_azure}}/Funcionalidade/FuncionalidadeByIdPessoa"
 					},
 					"response": []
 				}
@@ -1118,13 +1118,13 @@
 	],
 	"variable": [
 		{
-			"id": "de13876c-3414-498a-b33f-1248a2e14f50",
+			"id": "de8a1a8b-0ad5-4b5a-97fc-79e47c1c5aed",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8d5a7631-f63e-46cc-84e9-a18dbcecb587",
+			"id": "d3ed99e3-84e0-4600-9a29-5e441667b9c4",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
