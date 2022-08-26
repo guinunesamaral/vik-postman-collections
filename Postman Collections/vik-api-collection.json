@@ -1018,14 +1018,29 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n\t\"idSolucao\": 1000\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Funcionalidade/FuncionalidadeByIdPessoa"
+						"url": {
+							"raw": "{{vik_way_azure}}/MenuAplicacoes/MenuItem?idSolucao=1000",
+							"host": [
+								"{{vik_way_azure}}"
+							],
+							"path": [
+								"MenuAplicacoes",
+								"MenuItem"
+							],
+							"query": [
+								{
+									"key": "idSolucao",
+									"value": "1000"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -1118,13 +1133,13 @@
 	],
 	"variable": [
 		{
-			"id": "de8a1a8b-0ad5-4b5a-97fc-79e47c1c5aed",
+			"id": "35858893-cfb4-4dab-b17d-dbcb1cc1e4d7",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d3ed99e3-84e0-4600-9a29-5e441667b9c4",
+			"id": "5341e207-8adc-45de-9e98-3058951ede86",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
