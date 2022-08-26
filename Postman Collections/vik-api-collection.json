@@ -1016,22 +1016,7 @@
 						},
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{vik_way_azure}}/MenuAplicacoes/MenuItem?idSolucao=1000",
-							"host": [
-								"{{vik_way_azure}}"
-							],
-							"path": [
-								"MenuAplicacoes",
-								"MenuItem"
-							],
-							"query": [
-								{
-									"key": "idSolucao",
-									"value": "1000"
-								}
-							]
-						}
+						"url": "{{vik_way_azure}}/FuncionalidadeByIdPessoa"
 					},
 					"response": []
 				}
@@ -1124,13 +1109,13 @@
 	],
 	"variable": [
 		{
-			"id": "748b9bc8-b113-4366-ab13-333cd29ab21e",
+			"id": "393393b3-f761-4ce7-ba02-d9fa7da5279a",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "de4d9d02-248a-43fe-84cf-d42059855beb",
+			"id": "307608e8-44c6-48c3-9a2a-e584ef8699f9",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
