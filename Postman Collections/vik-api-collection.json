@@ -1058,7 +1058,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "3f43180b-8236-4f3c-a712-3039c1dcb35d",
+				"id": "5b48d3e6-45d8-4aa7-84ca-92d9e9582181",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1084,12 +1084,12 @@
 					"}",
 					"",
 					"const login = () => {",
-					"  const user = {",
+					"  const cliente = {",
 					"    \"email\": \"vik@gmail.com\",",
 					"    \"senha\": \"MyPass@13\"",
 					"  }",
 					"",
-					"\tconst utilizador = {",
+					"\tconst usuario = {",
 					"\t\t\"email\": \"teste1@teste.com\",",
 					"\t\t\"senha\": \"MyPass@13\"",
 					"\t}",
@@ -1123,7 +1123,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "2dfb51c1-c853-490f-9ded-714b5e3feabc",
+				"id": "59dfb1c7-65f3-4743-9149-8bc7e49d1f99",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1133,13 +1133,13 @@
 	],
 	"variable": [
 		{
-			"id": "b60d9b68-11a3-4701-8d9f-e631df228191",
+			"id": "fac61c5f-307b-4661-8d8d-73ba99c7e4a4",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2df0e50f-f1bb-49bf-8e11-6adcf136793b",
+			"id": "b19cbb47-c187-4110-8b23-beae7aebce1a",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
