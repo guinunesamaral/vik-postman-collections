@@ -1058,7 +1058,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "4a463036-3b65-43cc-b1a1-4b57f54732da",
+				"id": "3f43180b-8236-4f3c-a712-3039c1dcb35d",
 				"type": "text/javascript",
 				"exec": [
 					"const validateToken = () => {",
@@ -1084,15 +1084,15 @@
 					"}",
 					"",
 					"const login = () => {",
-					"  const userAzure = {",
+					"  const user = {",
 					"    \"email\": \"vik@gmail.com\",",
 					"    \"senha\": \"MyPass@13\"",
 					"  }",
 					"",
-					"  const userLocalhost = {",
-					"    \"email\": \"gn@email.com\",",
-					"    \"senha\": \"MyPass@13\"",
-					"  }",
+					"\tconst utilizador = {",
+					"\t\t\"email\": \"teste1@teste.com\",",
+					"\t\t\"senha\": \"MyPass@13\"",
+					"\t}",
 					"",
 					"  const req = {",
 					"    url: `${pm.environment.get(\"vik_way_azure\")}/Login`,",
@@ -1100,7 +1100,7 @@
 					"    header: {",
 					"      \"Content-Type\": \"application/json\"",
 					"    },",
-					"    body: JSON.stringify(userAzure)",
+					"    body: JSON.stringify(user)",
 					"  };",
 					"",
 					"  pm.sendRequest(req, (err, res) => {",
@@ -1123,7 +1123,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "d3107eea-6871-4088-8467-43327a93dd5d",
+				"id": "2dfb51c1-c853-490f-9ded-714b5e3feabc",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1133,13 +1133,13 @@
 	],
 	"variable": [
 		{
-			"id": "35858893-cfb4-4dab-b17d-dbcb1cc1e4d7",
+			"id": "7dcb3a84-86a4-45cd-a145-cc5d0c9c7aca",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5341e207-8adc-45de-9e98-3058951ede86",
+			"id": "2b8fc739-9929-45bc-9aa6-b05f8e40a914",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
