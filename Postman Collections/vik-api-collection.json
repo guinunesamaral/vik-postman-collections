@@ -126,7 +126,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{vik_way_azure}}/User/70"
+						"url": "{{vik_way_azure}}User/70"
 					},
 					"response": []
 				},
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "efe1ea9f-2e5b-4eaf-8d25-f09840c9e05f",
+			"id": "fa7aed10-462b-4bb6-a2ee-b17da5017d5d",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e839ebf8-29d5-470d-a6eb-6895ea7378de",
+			"id": "79bb6d93-9c23-4bf1-9ce7-a421d7993f14",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
