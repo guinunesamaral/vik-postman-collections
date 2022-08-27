@@ -460,7 +460,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{vik_way_azure}}/Perfil"
+						"url": "{{vik_way_azure}}Perfil"
 					},
 					"response": []
 				},
@@ -1099,13 +1099,13 @@
 	],
 	"variable": [
 		{
-			"id": "711e527a-4fcd-402d-af7b-19eb53855e2f",
+			"id": "7902010b-9b77-46a7-9f97-ad1ad2d7281a",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "c9835c55-32b6-49f1-a882-2bd8c4d0e2b6",
+			"id": "5ce5dd8d-26be-4261-ae44-27a9174d8088",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
