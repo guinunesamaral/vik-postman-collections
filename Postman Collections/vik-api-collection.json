@@ -170,7 +170,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/User"
+						"url": "{{vik_way_azure}}User"
 					},
 					"response": []
 				},
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "683fd6e2-87c5-488a-ba0b-e73da339466b",
+			"id": "19393952-a732-430e-bcda-f0ce0e0d99b6",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "6dad0ced-6db9-417a-8a2d-a84bec5ed891",
+			"id": "cbcfbb16-aec9-46ac-bcc1-fcdbe130a1cd",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
