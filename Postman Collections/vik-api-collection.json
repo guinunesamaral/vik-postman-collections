@@ -969,23 +969,8 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": {
-								"token": "{{token_jwt}}"
-							}
-						},
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
 						"url": {
 							"raw": "{{vik_way_azure}}MenuAplicacoes/MenuItem?idSolucao=1000",
 							"host": [
@@ -1093,13 +1078,13 @@
 	],
 	"variable": [
 		{
-			"id": "0065be5c-2589-4186-8c7b-6da3443fcadb",
+			"id": "e1850746-7f29-433f-9ebe-cbcea71bbbbe",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "4213be0b-9ef3-4f03-84d1-b17c07348282",
+			"id": "36ba9540-8b28-43b8-bea4-e1e81a28739e",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
