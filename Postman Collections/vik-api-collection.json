@@ -959,12 +959,6 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": {
-								"token": "{{token_jwt}}"
-							}
-						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -1131,13 +1125,13 @@
 	],
 	"variable": [
 		{
-			"id": "89ca5271-3898-47bf-a316-985cf7b503f5",
+			"id": "6e3027b4-3284-43a4-b3e2-82b5cc90056a",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "732eeb18-3531-45c9-956f-6e1e13722959",
+			"id": "50bf72c9-307e-41fc-84db-bec0cfa43a4f",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
