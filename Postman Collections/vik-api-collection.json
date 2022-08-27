@@ -441,7 +441,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Cargo/disable"
+						"url": "{{vik_way_azure}}Cargo/disable"
 					},
 					"response": []
 				}
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "0bf58ae7-ce15-43b6-a816-381508ce178b",
+			"id": "4ced9631-9410-41f3-9d1f-78f8c0b0e82d",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "7dd73a10-e088-42b9-8ba7-e3b86348d940",
+			"id": "950ccdd1-e904-4af1-b1ff-9cf8a19273ce",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
