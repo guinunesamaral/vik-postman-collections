@@ -214,7 +214,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/User/solicitacao-inativacao"
+						"url": "{{vik_way_azure}}User/solicitacao-inativacao"
 					},
 					"response": []
 				}
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "33011179-1ae9-4201-96c9-dbe398a52ca2",
+			"id": "99aef672-6506-408c-a33d-612c7fe492c9",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d157f66f-8588-4bfe-aa23-1c470510bf0b",
+			"id": "22325d5b-a68c-4724-a0c7-d778e8dbc902",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
