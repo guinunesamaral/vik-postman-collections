@@ -419,7 +419,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Cargo"
+						"url": "{{vik_way_azure}}Cargo"
 					},
 					"response": []
 				},
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "90b6a1ca-8ebe-42fe-9419-b3254435083a",
+			"id": "0bf58ae7-ce15-43b6-a816-381508ce178b",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "d3a58fa4-c75e-4c7c-9aec-aee2be8cb035",
+			"id": "7dd73a10-e088-42b9-8ba7-e3b86348d940",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
