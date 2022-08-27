@@ -814,12 +814,11 @@
 							}
 						},
 						"url": {
-							"raw": "{{vik_way_azure}}/Utilizador/25/solucao?solucaoId=1",
+							"raw": "{{vik_way_azure}}Utilizador/25/solucao?solucaoId=1",
 							"host": [
-								"{{vik_way_azure}}"
+								"{{vik_way_azure}}Utilizador"
 							],
 							"path": [
-								"Utilizador",
 								"25",
 								"solucao"
 							],
@@ -1106,13 +1105,13 @@
 	],
 	"variable": [
 		{
-			"id": "02568a69-7dd7-4811-9e19-ebde6630eb05",
+			"id": "9f081347-e6bc-40c4-8c17-b87e3b061302",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e8126afe-a59d-4c63-8bde-e432a2e35284",
+			"id": "c3572065-e052-491e-a25b-a45ffda4316b",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
