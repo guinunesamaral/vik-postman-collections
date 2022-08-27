@@ -615,12 +615,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vik_way_azure}}/Departamento?ativo=false",
+							"raw": "{{vik_way_azure}}Departamento?ativo=false",
 							"host": [
-								"{{vik_way_azure}}"
-							],
-							"path": [
-								"Departamento"
+								"{{vik_way_azure}}Departamento"
 							],
 							"query": [
 								{
@@ -1102,13 +1099,13 @@
 	],
 	"variable": [
 		{
-			"id": "64bef998-3c23-4c16-bfd1-e39ae2cbb847",
+			"id": "1b4e7ee5-9519-44aa-98c5-b42adca96eb4",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "670c62ae-1a4a-4c2b-9abd-949508050b22",
+			"id": "02e7e2dc-df62-4cdd-a621-9b62a584772b",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
