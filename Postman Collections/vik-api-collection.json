@@ -727,12 +727,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vik_way_azure}}/Solucao?idUsuario=70&solucoesContratadas=true",
+							"raw": "{{vik_way_azure}}Solucao?idUsuario=70&solucoesContratadas=true",
 							"host": [
-								"{{vik_way_azure}}"
-							],
-							"path": [
-								"Solucao"
+								"{{vik_way_azure}}Solucao"
 							],
 							"query": [
 								{
@@ -1105,13 +1102,13 @@
 	],
 	"variable": [
 		{
-			"id": "f3cd7d1a-939c-4eef-b8fc-db34e81d142d",
+			"id": "64bef998-3c23-4c16-bfd1-e39ae2cbb847",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "53d8acea-3bde-4404-91de-6eda18fbfe83",
+			"id": "670c62ae-1a4a-4c2b-9abd-949508050b22",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
