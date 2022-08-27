@@ -704,7 +704,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Departamento/disable"
+						"url": "{{vik_way_azure}}Departamento/disable"
 					},
 					"response": []
 				}
@@ -1099,13 +1099,13 @@
 	],
 	"variable": [
 		{
-			"id": "baf424cb-fa1e-4585-94fe-3281e86c7171",
+			"id": "5c274934-1635-4ea2-9206-79a08d94f856",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "53b34610-d2c7-4409-9f37-01cbf9338018",
+			"id": "dea15d25-278b-4a50-9aac-9f15c56793d6",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
