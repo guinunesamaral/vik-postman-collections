@@ -482,7 +482,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Perfil"
+						"url": "{{vik_way_azure}}Perfil"
 					},
 					"response": []
 				},
@@ -1099,13 +1099,13 @@
 	],
 	"variable": [
 		{
-			"id": "7902010b-9b77-46a7-9f97-ad1ad2d7281a",
+			"id": "82940fa2-b8c2-4c95-bcdb-d7f0d683b2df",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "5ce5dd8d-26be-4261-ae44-27a9174d8088",
+			"id": "f654c45e-d8cd-42d9-b7e4-2ebb00bdfb12",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
