@@ -286,7 +286,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_localhost}}/Utilizador"
+						"url": "{{vik_way_localhost}}Utilizador"
 					},
 					"response": []
 				},
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "1a02e090-8b60-4b94-90fd-31deec42c239",
+			"id": "6a9d7a59-e640-44f3-acd7-972e17a34b46",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "08ff6383-b4f4-474d-a2fe-017918bd2012",
+			"id": "fc1f2a48-aebe-470a-9158-05a5f8939abb",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
