@@ -70,7 +70,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Documento/"
+						"url": "{{vik_way_azure}}Documento/"
 					},
 					"response": []
 				}
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "58309a7a-a4db-4f8a-8b16-9cf2031ba903",
+			"id": "89e60686-7498-4d75-b157-1e03d5a2ebd8",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "1d2d71d4-7b6c-4997-bb41-aae0fce78004",
+			"id": "786b49b5-8604-49c5-b256-68d0a31e5c58",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
