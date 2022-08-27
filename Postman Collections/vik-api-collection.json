@@ -537,15 +537,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": {
-								"token": "{{tokenJWT}}"
-							}
-						},
 						"method": "GET",
 						"header": [],
-						"url": "{{vik_way_azure}}/Perfil/1"
+						"url": "{{vik_way_azure}}Perfil/1"
 					},
 					"response": []
 				}
@@ -1099,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "eb4b2385-5779-41eb-8ee8-e2cb316db454",
+			"id": "549fdb36-02e3-48f9-b34d-c2301393ff2d",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b89dfc23-005d-4938-a482-c9861d1a216c",
+			"id": "ad675d2b-efb5-4c53-857f-c2fa8b4f81ee",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
