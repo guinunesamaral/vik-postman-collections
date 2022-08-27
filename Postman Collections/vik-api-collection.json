@@ -987,7 +987,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{vik_way_azure}}MenuAplicacoes/MenuItem?idSolucao=1001",
+							"raw": "{{vik_way_azure}}MenuAplicacoes/MenuItem?idSolucao=1000",
 							"host": [
 								"{{vik_way_azure}}MenuAplicacoes"
 							],
@@ -997,7 +997,7 @@
 							"query": [
 								{
 									"key": "idSolucao",
-									"value": "1001"
+									"value": "1000"
 								}
 							]
 						}
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "1ecdf755-8473-4ea1-b09f-d408173dbb24",
+			"id": "755e77dc-3aee-4e2b-911a-8a2f27bfd793",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "e4c852d5-6fe0-48ae-8469-6888f62824fb",
+			"id": "fac7bc7d-e4d3-4258-9e59-23c1cfb648b5",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
