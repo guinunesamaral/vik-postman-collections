@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "4ced9631-9410-41f3-9d1f-78f8c0b0e82d",
+			"id": "365a6aee-806b-4f4c-b96d-8cf8cb2aa0e3",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "950ccdd1-e904-4af1-b1ff-9cf8a19273ce",
+			"id": "06dac565-68c9-45a3-ba78-fd09fa6d065b",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
