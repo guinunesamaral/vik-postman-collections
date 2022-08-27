@@ -850,7 +850,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Utilizador/50/solucao"
+						"url": "{{vik_way_azure}}Utilizador/50/solucao"
 					},
 					"response": []
 				},
@@ -1105,13 +1105,13 @@
 	],
 	"variable": [
 		{
-			"id": "3d3462f4-e956-47d9-8e7f-a6e7139a3706",
+			"id": "dddedfbc-e218-42a4-9bdb-98e84b191d01",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "3f6c4b29-7b46-4876-aaf3-cb76e125cc97",
+			"id": "859d5598-6b2a-4d66-89b1-7e166b78a2a8",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
