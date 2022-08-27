@@ -504,7 +504,7 @@
 								}
 							}
 						},
-						"url": "{{vik_way_azure}}/Perfil"
+						"url": "{{vik_way_azure}}Perfil"
 					},
 					"response": []
 				},
@@ -1099,13 +1099,13 @@
 	],
 	"variable": [
 		{
-			"id": "82940fa2-b8c2-4c95-bcdb-d7f0d683b2df",
+			"id": "6f0d2fd9-a5fc-4814-8862-a82a3559269b",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f654c45e-d8cd-42d9-b7e4-2ebb00bdfb12",
+			"id": "4aab5226-52a9-422c-98f3-9e179f358a91",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
