@@ -375,7 +375,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": "{{vik_way_azure}}/Cargo"
+						"url": "{{vik_way_azure}}Cargo"
 					},
 					"response": []
 				},
@@ -1093,13 +1093,13 @@
 	],
 	"variable": [
 		{
-			"id": "80517c7f-f161-4bd6-b9a7-a4c8c4c9d4a7",
+			"id": "fb3508f9-c2a0-491f-b9ae-33bf260a55b7",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "738f98a5-aa7b-420f-bd7d-4e80965d6a1a",
+			"id": "3c1bb4f4-1f7a-4396-90f6-08c10dbb096f",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
