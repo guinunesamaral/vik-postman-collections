@@ -977,12 +977,11 @@
 							}
 						},
 						"url": {
-							"raw": "{{vik_way_localhost}}/Funcionalidade/FuncionalidadeByIdPessoa?idSolucao=1000",
+							"raw": "{{vik_way_localhost}}Funcionalidade/FuncionalidadeByIdPessoa?idSolucao=1000",
 							"host": [
-								"{{vik_way_localhost}}"
+								"{{vik_way_localhost}}Funcionalidade"
 							],
 							"path": [
-								"Funcionalidade",
 								"FuncionalidadeByIdPessoa"
 							],
 							"query": [
@@ -1132,13 +1131,13 @@
 	],
 	"variable": [
 		{
-			"id": "259c9525-c4ec-4ad3-b0d1-aaa78ac1ca05",
+			"id": "89ca5271-3898-47bf-a316-985cf7b503f5",
 			"key": "base64_image_data_create",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "8be94722-1ec4-45f3-a648-b3bab919a70b",
+			"id": "732eeb18-3531-45c9-956f-6e1e13722959",
 			"key": "base64_image_data_update",
 			"value": "",
 			"type": "string"
